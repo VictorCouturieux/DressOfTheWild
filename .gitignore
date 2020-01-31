@@ -10,6 +10,15 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+dressOfTheWild/[Ll]ibrary/
+dressOfTheWild/[Tt]emp/
+dressOfTheWild/[Oo]bj/
+dressOfTheWild/[Bb]uild/
+dressOfTheWild/[Bb]uilds/
+dressOfTheWild/[Ll]ogs/
+dressOfTheWild/[Mm]emoryCaptures/
+
+
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
