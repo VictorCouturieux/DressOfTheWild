@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Vic Ctx\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Vic Ctx\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_dressOfTheWild.-1128802865.00" t="ExcludeRecursive" />
+    <e p="E:\Users\ctx\Documents\UnityProject\gitGGJ2020\Git\DressOfTheWild\DressOfTheWild" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Script" t="Include">
+          <e p="CharactereMove.cs" t="Include" />
+        </e>
+        <e p="XInputDotNet" t="Include">
+          <e p="Docs.txt" t="Include" />
+          <e p="Examples" t="Include">
+            <e p="XInputTestCS.cs" t="Include" />
+          </e>
+          <e p="MITLicense.txt" t="Include" />
+        </e>
+      </e>
+      <e p="dressOfTheWild.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
