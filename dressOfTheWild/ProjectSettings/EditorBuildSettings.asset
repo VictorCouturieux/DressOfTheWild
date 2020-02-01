@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SceneTOTOR.unity
+    guid: e057629cf0a855f4eb5e42cd91727732
   m_configObjects: {}

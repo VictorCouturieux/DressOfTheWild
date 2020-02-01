@@ -12,6 +12,7 @@
           <e p="Enviro" t="Include">
             <e p="AnimationOffset.cs" t="Include" />
             <e p="GrassGenerator.cs" t="Include" />
+            <e p="MineGenerator.cs" t="Include" />
           </e>
           <e p="FaceCamera.cs" t="Include" />
           <e p="GenericElements.cs" t="Include" />
