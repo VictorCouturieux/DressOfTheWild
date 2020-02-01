@@ -19,13 +19,13 @@ public class PaintingGround : MonoBehaviour
         RaycastHit hitRay;
 
         Vector3 startPositionForTheRay = this.transform.position;
-        Vector3 direction = Vector3.down * lenghtOfThatRay;
+        Vector3 direction = Vector3.forward * lenghtOfThatRay;
 
         Ray rayForWall = new Ray(startPositionForTheRay, direction);//use the current upVector to check.
 #if UNITY_EDITOR
         Debug.DrawRay(startPositionForTheRay, direction, Color.cyan);
 #endif
-        if (Physics.Raycast(rayForWall, out hitRay, lenghtOfThatRay))
+        if (Physics.Raycast(rayForWall, out hitRay, lenghtOfThatRay, layerMaskIfNeeded))
         {
             int indexTriangle = hitRay.triangleIndex;
             Vector3 barycenterPoint = hitRay.barycentricCoordinate;
