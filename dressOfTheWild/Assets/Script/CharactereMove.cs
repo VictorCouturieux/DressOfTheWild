@@ -11,14 +11,17 @@ public class CharactereMove : MonoBehaviour {
     PlayerIndex playerIndex;
     GamePadState state;
     GamePadState prevState;
+
     
     
     private Vector3 moveDirection = Vector3.zero;
     CharacterController Cc;
+    PaintingGround paint;
 
     // Start is called before the first frame update
     void Start() {
         Cc = GetComponent<CharacterController>();
+        paint = GetComponent<PaintingGround>();
     }
 
     // Update is called once per frame
@@ -49,8 +52,10 @@ public class CharactereMove : MonoBehaviour {
         transform.localRotation *= Quaternion.Euler(0.0f, 0.0f, 0.0f);
         
         Cc.Move(moveDirection * Time.deltaTime);
+
+        paint.RaycastGround();
     }
-    
+
     void OnGUI()
     {
         string text = "Use left stick to turn the cube, hold A to change color\n";

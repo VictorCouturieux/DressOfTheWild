@@ -1260,7 +1260,7 @@ MonoBehaviour:
   blendDistance: 0
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 1b818e22ebc454b428bfdbaa99236e9d, type: 2}
---- !u!114 &801483966
+--- !u!114 &697749427
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1683,6 +1683,75 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &1306652354
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2152370538691244130, guid: 8ac83595f234fb14b86d18ea7b47dccf,
+        type: 3}
+      propertyPath: m_Name
+      value: Charachere
+      objectReference: {fileID: 0}
+    - target: {fileID: 2152370538691244133, guid: 8ac83595f234fb14b86d18ea7b47dccf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.38480514
+      objectReference: {fileID: 0}
+    - target: {fileID: 2152370538691244133, guid: 8ac83595f234fb14b86d18ea7b47dccf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2152370538691244133, guid: 8ac83595f234fb14b86d18ea7b47dccf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.2475301
+      objectReference: {fileID: 0}
+    - target: {fileID: 2152370538691244133, guid: 8ac83595f234fb14b86d18ea7b47dccf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2152370538691244133, guid: 8ac83595f234fb14b86d18ea7b47dccf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2152370538691244133, guid: 8ac83595f234fb14b86d18ea7b47dccf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2152370538691244133, guid: 8ac83595f234fb14b86d18ea7b47dccf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2152370538691244133, guid: 8ac83595f234fb14b86d18ea7b47dccf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2152370538691244133, guid: 8ac83595f234fb14b86d18ea7b47dccf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2152370538691244133, guid: 8ac83595f234fb14b86d18ea7b47dccf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2152370538691244133, guid: 8ac83595f234fb14b86d18ea7b47dccf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8ac83595f234fb14b86d18ea7b47dccf, type: 3}
 --- !u!1 &1672181923
 GameObject:
   m_ObjectHideFlags: 0
@@ -1715,7 +1784,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Profile: {fileID: 11400000, guid: fcdab26722bdd324da1a049653be337f, type: 2}
   m_StaticLightingSkyUniqueID: 2
-  m_SkySettings: {fileID: 801483966}
+  m_SkySettings: {fileID: 697749427}
   m_SkySettingsFromProfile: {fileID: -5789387522822705799, guid: fcdab26722bdd324da1a049653be337f,
     type: 2}
 --- !u!114 &1672181925
