@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Script" t="Include">
           <e p="CharactereMove.cs" t="Include" />
+          <e p="PaintingGround.cs" t="Include" />
         </e>
         <e p="XInputDotNet" t="Include">
           <e p="Docs.txt" t="Include" />

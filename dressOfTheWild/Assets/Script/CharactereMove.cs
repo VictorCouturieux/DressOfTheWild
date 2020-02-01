@@ -12,7 +12,8 @@ public class CharactereMove : MonoBehaviour {
     GamePadState state;
     GamePadState prevState;
 
-    
+    private Transform visual;
+    private Camera mainCamera;
     
     private Vector3 moveDirection = Vector3.zero;
     CharacterController Cc;
@@ -22,6 +23,8 @@ public class CharactereMove : MonoBehaviour {
     void Start() {
         Cc = GetComponent<CharacterController>();
         paint = GetComponent<PaintingGround>();
+        visual = transform.GetChild(0);
+        mainCamera = GameObject.Find("Main Camera").GetComponent<Camera>();
     }
 
     // Update is called once per frame
@@ -49,7 +52,11 @@ public class CharactereMove : MonoBehaviour {
         moveDirection = transform.TransformDirection(moveDirection);
         moveDirection *= speed;
         
-        transform.localRotation *= Quaternion.Euler(0.0f, 0.0f, 0.0f);
+        transform.GetChild(0).localRotation = new Quaternion(
+            mainCamera.transform.rotation.x,
+            mainCamera.transform.rotation.y,
+            mainCamera.transform.rotation.z,
+             transform.rotation.w);
         
         Cc.Move(moveDirection * Time.deltaTime);
 

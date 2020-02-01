@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f815fa2-afd0-4569-a96d-2be000957de9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/CharactereMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/CharactereMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4170ea-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4170ea-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/26ef1d-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/26ef1d-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,19 +21,20 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="258" />
+          <entry key="cs" value="414" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="258" />
+          <entry key="C#" value="414" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -47,15 +54,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Script/CharactereMove.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+            <state relative-caret-position="646">
+              <caret line="53" column="8" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
               <folding>
-                <marker date="1580551077928" expanded="false" signature="6:102" ph="..." />
-                <marker date="1580551077928" expanded="true" signature="148:2762" ph="{...}" />
-                <marker date="1580551077928" expanded="true" signature="458:515" ph="{...}" />
-                <marker date="1580551077928" expanded="true" signature="574:1569" ph="{...}" />
-                <marker date="1580551077928" expanded="true" signature="577:1142" ph="/* if (!playerIndexSet || !prevState.IsConnected) ... */" />
-                <marker date="1580551077928" expanded="true" signature="1591:2755" ph="{...}" />
+                <marker date="1580555178548" expanded="false" signature="6:102" ph="..." />
+                <marker date="1580555178548" expanded="true" signature="148:3199" ph="{...}" />
+                <marker date="1580555178548" expanded="true" signature="541:762" ph="{...}" />
+                <marker date="1580555178548" expanded="true" signature="821:2010" ph="{...}" />
+                <marker date="1580555178548" expanded="true" signature="824:1389" ph="/* if (!playerIndexSet || !prevState.IsConnected) ... */" />
+                <marker date="1580555178548" expanded="true" signature="2028:3192" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -64,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../../ProjetENJMIN/ProjetAssimilationENJMIN/WorldOfAdeliaProject/Assets/Scenes/IndividualTestScene/SceneVictor/scriptTOTOR/Script/player_s/SFB_PlayerMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-574">
+            <state relative-caret-position="3927">
               <caret line="231" column="33" selection-start-line="231" selection-start-column="33" selection-end-line="231" selection-end-column="33" />
             </state>
           </provider>
@@ -73,22 +80,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/XInputDotNet/Examples/XInputTestCS.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
+            <state relative-caret-position="969">
               <caret line="58" column="115" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="115" />
               <folding>
-                <marker date="1491636636000" expanded="false" signature="6:42" ph="..." />
-                <marker date="1491636636000" expanded="true" signature="103:3266" ph="{...}" />
-                <marker date="1491636636000" expanded="true" signature="272:341" ph="{...}" />
-                <marker date="1491636636000" expanded="true" signature="365:567" ph="{...}" />
-                <marker date="1491636636000" expanded="true" signature="380:475" ph="/* SetVibration should be sent in a slower rate. ... */" />
-                <marker date="1491636636000" expanded="true" signature="625:2082" ph="{...}" />
-                <marker date="1491636636000" expanded="true" signature="640:758" ph="/* Find a PlayerIndex, for a single player game ... */" />
-                <marker date="1491636636000" expanded="true" signature="813:1296" ph="{...}" />
-                <marker date="1491636636000" expanded="true" signature="863:1286" ph="{...}" />
-                <marker date="1491636636000" expanded="true" signature="1058:1272" ph="{...}" />
-                <marker date="1491636636000" expanded="true" signature="1524:1657" ph="{...}" />
-                <marker date="1491636636000" expanded="true" signature="1810:1919" ph="{...}" />
-                <marker date="1491636636000" expanded="true" signature="2100:3264" ph="{...}" />
+                <marker date="1580553052097" expanded="false" signature="6:42" ph="..." />
+                <marker date="1580553052097" expanded="true" signature="103:3266" ph="{...}" />
+                <marker date="1580553052097" expanded="true" signature="272:341" ph="{...}" />
+                <marker date="1580553052097" expanded="true" signature="365:567" ph="{...}" />
+                <marker date="1580553052097" expanded="true" signature="380:475" ph="/* SetVibration should be sent in a slower rate. ... */" />
+                <marker date="1580553052097" expanded="true" signature="625:2082" ph="{...}" />
+                <marker date="1580553052097" expanded="true" signature="640:758" ph="/* Find a PlayerIndex, for a single player game ... */" />
+                <marker date="1580553052097" expanded="true" signature="813:1296" ph="{...}" />
+                <marker date="1580553052097" expanded="true" signature="863:1286" ph="{...}" />
+                <marker date="1580553052097" expanded="true" signature="1058:1272" ph="{...}" />
+                <marker date="1580553052097" expanded="true" signature="1524:1657" ph="{...}" />
+                <marker date="1580553052097" expanded="true" signature="1810:1919" ph="{...}" />
+                <marker date="1580553052097" expanded="true" signature="2100:3264" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -183,11 +190,12 @@
       <workItem from="1580510871651" duration="3052000" />
       <workItem from="1580515920532" duration="179000" />
       <workItem from="1580548676268" duration="1920000" />
+      <workItem from="1580553613704" duration="2167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5151000" />
+    <option name="totallyTimeSpent" value="7318000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -202,7 +210,7 @@
     <frame x="959" y="0" width="968" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10242291" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10462555" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -247,46 +255,46 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Script/CharactereMove.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="53" column="8" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+          <folding>
+            <marker date="1580555178548" expanded="false" signature="6:102" ph="..." />
+            <marker date="1580555178548" expanded="true" signature="148:3199" ph="{...}" />
+            <marker date="1580555178548" expanded="true" signature="541:762" ph="{...}" />
+            <marker date="1580555178548" expanded="true" signature="821:2010" ph="{...}" />
+            <marker date="1580555178548" expanded="true" signature="824:1389" ph="/* if (!playerIndexSet || !prevState.IsConnected) ... */" />
+            <marker date="1580555178548" expanded="true" signature="2028:3192" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../../../ProjetENJMIN/ProjetAssimilationENJMIN/WorldOfAdeliaProject/Assets/Scenes/IndividualTestScene/SceneVictor/scriptTOTOR/Script/player_s/SFB_PlayerMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-574">
+        <state relative-caret-position="3927">
           <caret line="231" column="33" selection-start-line="231" selection-start-column="33" selection-end-line="231" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/XInputDotNet/Examples/XInputTestCS.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
+        <state relative-caret-position="969">
           <caret line="58" column="115" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="115" />
           <folding>
-            <marker date="1491636636000" expanded="false" signature="6:42" ph="..." />
-            <marker date="1491636636000" expanded="true" signature="103:3266" ph="{...}" />
-            <marker date="1491636636000" expanded="true" signature="272:341" ph="{...}" />
-            <marker date="1491636636000" expanded="true" signature="365:567" ph="{...}" />
-            <marker date="1491636636000" expanded="true" signature="380:475" ph="/* SetVibration should be sent in a slower rate. ... */" />
-            <marker date="1491636636000" expanded="true" signature="625:2082" ph="{...}" />
-            <marker date="1491636636000" expanded="true" signature="640:758" ph="/* Find a PlayerIndex, for a single player game ... */" />
-            <marker date="1491636636000" expanded="true" signature="813:1296" ph="{...}" />
-            <marker date="1491636636000" expanded="true" signature="863:1286" ph="{...}" />
-            <marker date="1491636636000" expanded="true" signature="1058:1272" ph="{...}" />
-            <marker date="1491636636000" expanded="true" signature="1524:1657" ph="{...}" />
-            <marker date="1491636636000" expanded="true" signature="1810:1919" ph="{...}" />
-            <marker date="1491636636000" expanded="true" signature="2100:3264" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/CharactereMove.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-          <folding>
-            <marker date="1580551077928" expanded="false" signature="6:102" ph="..." />
-            <marker date="1580551077928" expanded="true" signature="148:2762" ph="{...}" />
-            <marker date="1580551077928" expanded="true" signature="458:515" ph="{...}" />
-            <marker date="1580551077928" expanded="true" signature="574:1569" ph="{...}" />
-            <marker date="1580551077928" expanded="true" signature="577:1142" ph="/* if (!playerIndexSet || !prevState.IsConnected) ... */" />
-            <marker date="1580551077928" expanded="true" signature="1591:2755" ph="{...}" />
+            <marker date="1580553052097" expanded="false" signature="6:42" ph="..." />
+            <marker date="1580553052097" expanded="true" signature="103:3266" ph="{...}" />
+            <marker date="1580553052097" expanded="true" signature="272:341" ph="{...}" />
+            <marker date="1580553052097" expanded="true" signature="365:567" ph="{...}" />
+            <marker date="1580553052097" expanded="true" signature="380:475" ph="/* SetVibration should be sent in a slower rate. ... */" />
+            <marker date="1580553052097" expanded="true" signature="625:2082" ph="{...}" />
+            <marker date="1580553052097" expanded="true" signature="640:758" ph="/* Find a PlayerIndex, for a single player game ... */" />
+            <marker date="1580553052097" expanded="true" signature="813:1296" ph="{...}" />
+            <marker date="1580553052097" expanded="true" signature="863:1286" ph="{...}" />
+            <marker date="1580553052097" expanded="true" signature="1058:1272" ph="{...}" />
+            <marker date="1580553052097" expanded="true" signature="1524:1657" ph="{...}" />
+            <marker date="1580553052097" expanded="true" signature="1810:1919" ph="{...}" />
+            <marker date="1580553052097" expanded="true" signature="2100:3264" ph="{...}" />
           </folding>
         </state>
       </provider>
