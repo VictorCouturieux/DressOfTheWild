@@ -9,8 +9,13 @@ public class PaintingGround : MonoBehaviour
 
     MeshFilter meshMesh;
 
+    public Vector3 lastPosition = Vector3.zero;
+
     public void RaycastGround()
     {
+        if ((lastPosition - transform.position).sqrMagnitude < 0.05f)
+            return;
+
         RaycastHit hitRay;
 
         Vector3 startPositionForTheRay = this.transform.position;
@@ -41,6 +46,6 @@ public class PaintingGround : MonoBehaviour
 
 
 
-        
+        lastPosition = this.transform.position;
     }
 }
