@@ -49,7 +49,15 @@ public class CharactereMove : MonoBehaviour {
         moveDirection = transform.TransformDirection(moveDirection);
         moveDirection *= speed;
         
-        transform.localRotation *= Quaternion.Euler(0.0f, 0.0f, 0.0f);
+        transform.localRotation = Quaternion.Euler(GameObject.Find("Main Camera").transform.rotation.x, 0.0f, 0.0f);
+        
+//        transform.localRotation = new Quaternion(
+//            thisCamera.transform.rotation.x,
+//            thisCamera.transform.rotation.y,
+//            thisCamera.transform.rotation.z,
+//            transform.rotation.w);
+        
+        
         
         Cc.Move(moveDirection * Time.deltaTime);
 
