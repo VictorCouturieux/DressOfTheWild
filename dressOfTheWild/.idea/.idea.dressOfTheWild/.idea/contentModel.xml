@@ -9,6 +9,8 @@
         <e p="Script" t="Include">
           <e p="CharactereMove.cs" t="Include" />
           <e p="PaintingGround.cs" t="Include" />
+          <e p="PoissonDiscSampling.cs" t="Include" />
+          <e p="Test.cs" t="Include" />
         </e>
         <e p="XInputDotNet" t="Include">
           <e p="Docs.txt" t="Include" />

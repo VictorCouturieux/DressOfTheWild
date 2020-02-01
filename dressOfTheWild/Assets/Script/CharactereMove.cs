@@ -30,25 +30,25 @@ public class CharactereMove : MonoBehaviour {
     // Update is called once per frame
     void Update() {
 
-//        if (!playerIndexSet || !prevState.IsConnected)
-//        {
-//            for (int i = 0; i < 4; ++i)
-//            {
-//                PlayerIndex testPlayerIndex = (PlayerIndex)i;
-//                GamePadState testState = GamePad.GetState(testPlayerIndex);
-//                if (testState.IsConnected)
-//                {
-//                    Debug.Log(string.Format("GamePad found {0}", testPlayerIndex));
-//                    playerIndex = testPlayerIndex;
-//                    playerIndexSet = true;
-//                }
-//            }
-//        }
+        if (!playerIndexSet || !prevState.IsConnected)
+        {
+            for (int i = 0; i < 4; ++i)
+            {
+                PlayerIndex testPlayerIndex = (PlayerIndex)i;
+                GamePadState testState = GamePad.GetState(testPlayerIndex);
+                if (testState.IsConnected)
+                {
+                    Debug.Log(string.Format("GamePad found {0}", testPlayerIndex));
+                    playerIndex = testPlayerIndex;
+                    playerIndexSet = true;
+                }
+            }
+        }
         
         prevState = state;
         state = GamePad.GetState(playerIndex);
         
-        moveDirection = new Vector3(state.ThumbSticks.Left.X,0,state.ThumbSticks.Left.Y);
+        moveDirection = new Vector3(state.ThumbSticks.Left.X,state.ThumbSticks.Left.Y,0);
         moveDirection = transform.TransformDirection(moveDirection);
         moveDirection *= speed;
         
