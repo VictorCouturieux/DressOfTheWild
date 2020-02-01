@@ -46,7 +46,7 @@ public class CharactereMove : MonoBehaviour {
         moveDirection = transform.TransformDirection(moveDirection);
         moveDirection *= speed;
         
-        transform.localRotation *= Quaternion.Euler(Camera., 0.0f, 0.0f);
+        transform.localRotation *= Quaternion.Euler(0.0f, 0.0f, 0.0f);
         
         Cc.Move(moveDirection * Time.deltaTime);
     }

@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f815fa2-afd0-4569-a96d-2be000957de9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneTOTOR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneTOTOR.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/CharactereMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/CharactereMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/lapin.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/lapin.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4170ea-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4170ea-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/26ef1d-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/26ef1d-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,12 +22,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="254" />
+          <entry key="cs" value="258" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="254" />
+          <entry key="C#" value="258" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -61,15 +47,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Script/CharactereMove.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+            <state relative-caret-position="476">
+              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
               <folding>
-                <marker date="1580550186769" expanded="false" signature="6:102" ph="..." />
-                <marker date="1580550186769" expanded="true" signature="148:2765" ph="{...}" />
-                <marker date="1580550186769" expanded="true" signature="458:515" ph="{...}" />
-                <marker date="1580550186769" expanded="true" signature="574:1572" ph="{...}" />
-                <marker date="1580550186769" expanded="true" signature="577:1142" ph="/* if (!playerIndexSet || !prevState.IsConnected) ... */" />
-                <marker date="1580550186769" expanded="true" signature="1594:2758" ph="{...}" />
+                <marker date="1580551077928" expanded="false" signature="6:102" ph="..." />
+                <marker date="1580551077928" expanded="true" signature="148:2762" ph="{...}" />
+                <marker date="1580551077928" expanded="true" signature="458:515" ph="{...}" />
+                <marker date="1580551077928" expanded="true" signature="574:1569" ph="{...}" />
+                <marker date="1580551077928" expanded="true" signature="577:1142" ph="/* if (!playerIndexSet || !prevState.IsConnected) ... */" />
+                <marker date="1580551077928" expanded="true" signature="1591:2755" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -196,12 +182,12 @@
       <updated>1580510865955</updated>
       <workItem from="1580510871651" duration="3052000" />
       <workItem from="1580515920532" duration="179000" />
-      <workItem from="1580548676268" duration="1461000" />
+      <workItem from="1580548676268" duration="1920000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4692000" />
+    <option name="totallyTimeSpent" value="5151000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -292,15 +278,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/CharactereMove.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+        <state relative-caret-position="476">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
           <folding>
-            <marker date="1580550186769" expanded="false" signature="6:102" ph="..." />
-            <marker date="1580550186769" expanded="true" signature="148:2765" ph="{...}" />
-            <marker date="1580550186769" expanded="true" signature="458:515" ph="{...}" />
-            <marker date="1580550186769" expanded="true" signature="574:1572" ph="{...}" />
-            <marker date="1580550186769" expanded="true" signature="577:1142" ph="/* if (!playerIndexSet || !prevState.IsConnected) ... */" />
-            <marker date="1580550186769" expanded="true" signature="1594:2758" ph="{...}" />
+            <marker date="1580551077928" expanded="false" signature="6:102" ph="..." />
+            <marker date="1580551077928" expanded="true" signature="148:2762" ph="{...}" />
+            <marker date="1580551077928" expanded="true" signature="458:515" ph="{...}" />
+            <marker date="1580551077928" expanded="true" signature="574:1569" ph="{...}" />
+            <marker date="1580551077928" expanded="true" signature="577:1142" ph="/* if (!playerIndexSet || !prevState.IsConnected) ... */" />
+            <marker date="1580551077928" expanded="true" signature="1591:2755" ph="{...}" />
           </folding>
         </state>
       </provider>
