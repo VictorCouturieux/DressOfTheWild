@@ -18,12 +18,15 @@ public class CharactereMove : MonoBehaviour {
     private Vector3 moveDirection = Vector3.zero;
     CharacterController Cc;
     PaintingGround paint;
+    Animator visualAnimator;
+    public float slowDownAnimator = 1f;
 
     // Start is called before the first frame update
     void Start() {
         Cc = GetComponent<CharacterController>();
         paint = GetComponent<PaintingGround>();
         visual = transform.GetChild(0);
+        visualAnimator = GetComponentInChildren<Animator>();
         mainCamera = GameObject.Find("Main Camera").GetComponent<Camera>();
     }
 
@@ -51,7 +54,12 @@ public class CharactereMove : MonoBehaviour {
         moveDirection = new Vector3(state.ThumbSticks.Left.X,state.ThumbSticks.Left.Y,0);
         moveDirection = transform.TransformDirection(moveDirection);
         moveDirection *= speed;
-        
+
+        visualAnimator.SetFloat("MoveX", Mathf.Abs(state.ThumbSticks.Left.X) > 0.1f ? 1 * Mathf.Sign(state.ThumbSticks.Left.X) : 0);
+        visualAnimator.SetFloat("MoveY", Mathf.Abs(state.ThumbSticks.Left.Y) > 0.1f ? 1 * Mathf.Sign(state.ThumbSticks.Left.Y) : 0);
+        visualAnimator.speed = moveDirection.magnitude * slowDownAnimator;
+
+
         transform.GetChild(0).localRotation = new Quaternion(
             mainCamera.transform.rotation.x,
             mainCamera.transform.rotation.y,
