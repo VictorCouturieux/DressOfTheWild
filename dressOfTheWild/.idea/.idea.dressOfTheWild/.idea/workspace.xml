@@ -5,9 +5,23 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Charachere.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Charachere.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4170ea-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4170ea-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/26ef1d-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/26ef1d-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,42 +43,79 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="426" />
+          <entry key="cs" value="928" />
+          <entry key="txt" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="426" />
+          <entry key="C#" value="928" />
+          <entry key="PLAIN_TEXT" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="4" />
+          <entry key="cs" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="4" />
+          <entry key="C#" value="9" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/CharactereMove.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="54" column="61" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
+            <state relative-caret-position="387">
+              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
               <folding>
-                <marker date="1580563096659" expanded="false" signature="6:102" ph="..." />
-                <marker date="1580563096659" expanded="true" signature="148:3171" ph="{...}" />
-                <marker date="1580563096659" expanded="true" signature="541:762" ph="{...}" />
-                <marker date="1580563096659" expanded="true" signature="821:1982" ph="{...}" />
-                <marker date="1580563096659" expanded="true" signature="878:1361" ph="{...}" />
-                <marker date="1580563096659" expanded="true" signature="928:1351" ph="{...}" />
-                <marker date="1580563096659" expanded="true" signature="1123:1337" ph="{...}" />
-                <marker date="1580563096659" expanded="true" signature="2000:3164" ph="{...}" />
+                <marker date="1580568715367" expanded="false" signature="6:102" ph="..." />
+                <marker date="1580568715367" expanded="true" signature="148:3636" ph="{...}" />
+                <marker date="1580568715367" expanded="true" signature="2118:2447" ph="{...}" />
+                <marker date="1580568715367" expanded="true" signature="2465:3629" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/Enviro/GrassGenerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+              <folding>
+                <marker date="1580571733607" expanded="false" signature="6:78" ph="..." />
+                <marker date="1580571733607" expanded="true" signature="124:747" ph="{...}" />
+                <marker date="1580571733607" expanded="true" signature="233:240" ph="{...}" />
+                <marker date="1580571733607" expanded="true" signature="299:306" ph="{...}" />
+                <marker date="1580571733607" expanded="true" signature="356:745" ph="{...}" />
+                <marker date="1580571733607" expanded="true" signature="410:739" ph="{...}" />
+                <marker date="1580571733607" expanded="true" signature="450:607" ph="{...}" />
+                <marker date="1580571733607" expanded="true" signature="607:729" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/GenericElements.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+              <folding>
+                <marker date="1580571111776" expanded="false" signature="6:78" ph="..." />
+                <marker date="1580571111776" expanded="true" signature="125:1241" ph="{...}" />
+                <marker date="1580571111776" expanded="true" signature="514:612" ph="{...}" />
+                <marker date="1580571111776" expanded="true" signature="638:861" ph="{...}" />
+                <marker date="1580571111776" expanded="true" signature="725:855" ph="{...}" />
+                <marker date="1580571111776" expanded="true" signature="773:845" ph="{...}" />
+                <marker date="1580571111776" expanded="true" signature="888:1239" ph="{...}" />
+                <marker date="1580571111776" expanded="true" signature="1009:1233" ph="{...}" />
+                <marker date="1580571111776" expanded="true" signature="1057:1223" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -73,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/Test.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+            <state relative-caret-position="374">
+              <caret line="24" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <marker date="1542915766000" expanded="false" signature="6:78" ph="..." />
                 <marker date="1542915766000" expanded="true" signature="114:579" ph="{...}" />
@@ -90,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/PoissonDiscSampling.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="74" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
+            <state relative-caret-position="34">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="32" />
               <folding>
                 <marker date="1542915766000" expanded="false" signature="6:78" ph="..." />
                 <marker date="1542915766000" expanded="true" signature="120:2256" ph="{...}" />
@@ -107,15 +158,6 @@
                 <marker date="1542915766000" expanded="true" signature="2063:2204" ph="{...}" />
                 <marker date="1542915766000" expanded="true" signature="2167:2197" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../../ProjetENJMIN/ProjetAssimilationENJMIN/WorldOfAdeliaProject/Assets/Scenes/IndividualTestScene/SceneVictor/scriptTOTOR/Script/player_s/SFB_PlayerMovement.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3927">
-              <caret line="231" column="33" selection-start-line="231" selection-start-column="33" selection-end-line="231" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -162,9 +204,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/XInputDotNet/Examples/XInputTestCS.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Test.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Enviro/GrassGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PoissonDiscSampling.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/GenericElements.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/CharactereMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../ProjetENJMIN/ProjetAssimilationENJMIN/WorldOfAdeliaProject/Assets/Scenes/IndividualTestScene/SceneVictor/scriptTOTOR/Script/player_s/SFB_PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/FaceCamera.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -172,6 +217,9 @@
         <option value="$PROJECT_DIR$/Assets/Script/PoissonDiscSampling.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/CharactereMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Test.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/WildGeneration.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/GenericElements.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Enviro/GrassGenerator.cs" />
       </list>
     </option>
   </component>
@@ -181,9 +229,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="778" />
-    <option name="y" value="-9" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="959" />
     <option name="width" value="968" />
     <option name="height" value="1047" />
   </component>
@@ -206,6 +253,152 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Prefab/Charachere.prefab</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Scenes/SceneTiti.unity</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Script/CharactereMove.cs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Script/Enviro/AnimationOffset.cs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Packages/manifest.json</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Animation/Character.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Animation/Character/Character.controller</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Animation/Character/Character.controller.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Animation/Character/Idle.anim</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Animation/Character/Idle.anim.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Animation/Character/Walk-B.anim</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Animation/Character/Walk-B.anim.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Animation/Character/Walk-BD.anim</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Animation/Character/Walk-BD.anim.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Animation/Character/Walk-BG.anim</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Animation/Character/Walk-BG.anim.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Animation/Character/Walk-D.anim</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Animation/Character/Walk-D.anim.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Animation/Character/Walk-G.anim</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Animation/Character/Walk-G.anim.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Animation/Character/Walk-H.anim</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Animation/Character/Walk-H.anim.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Animation/Character/Walk-HD.anim</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Animation/Character/Walk-HD.anim.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Animation/Character/Walk-HG.anim</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Animation/Character/Walk-HG.anim.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Sprite/Lapin.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Sprite/Lapin/lapin_course_B.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Sprite/Lapin/lapin_course_B.png.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Sprite/Lapin/lapin_course_BD.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Sprite/Lapin/lapin_course_BD.png.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Sprite/Lapin/lapin_course_D.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Sprite/Lapin/lapin_course_D.png.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Sprite/Lapin/lapin_course_H.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Sprite/Lapin/lapin_course_H.png.meta</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Sprite/Lapin/lapin_course_HD.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Sprite/Lapin/lapin_course_HD.png.meta</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -249,12 +442,27 @@
       <workItem from="1580515920532" duration="179000" />
       <workItem from="1580548676268" duration="1920000" />
       <workItem from="1580553613704" duration="3261000" />
-      <workItem from="1580562344520" duration="3450000" />
+      <workItem from="1580562344520" duration="8595000" />
     </task>
+    <task id="LOCAL-00001" summary="characher prefab update">
+      <created>1580566623349</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580566623349</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Charachere Controler">
+      <created>1580566739837</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580566739837</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11862000" />
+    <option name="totallyTimeSpent" value="17007000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -266,10 +474,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="959" y="0" width="968" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.051705755" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19713657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -305,7 +513,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge branch 'master' of https://github.com/VictorCouturieux/DressOfTheWild&#10;&#10;# Conflicts:&#10;#&#9;dressOfTheWild/Assets/Prefab/Charachere.prefab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/VictorCouturieux/DressOfTheWild&#10;&#10;# Conflicts:&#10;#&#9;dressOfTheWild/Assets/Prefab/Charachere.prefab" />
+    <MESSAGE value="characher prefab update" />
+    <MESSAGE value="Charachere Controler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Charachere Controler" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -347,10 +557,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/FaceCamera.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1580565356360" expanded="false" signature="6:78" ph="..." />
+            <marker date="1580565356360" expanded="true" signature="119:715" ph="{...}" />
+            <marker date="1580565356360" expanded="true" signature="240:418" ph="{...}" />
+            <marker date="1580565356360" expanded="true" signature="476:713" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Test.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <marker date="1542915766000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542915766000" expanded="true" signature="114:579" ph="{...}" />
+            <marker date="1542915766000" expanded="true" signature="296:385" ph="{...}" />
+            <marker date="1542915766000" expanded="true" signature="408:577" ph="{...}" />
+            <marker date="1542915766000" expanded="true" signature="480:574" ph="{...}" />
+            <marker date="1542915766000" expanded="true" signature="519:570" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/CharactereMove.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <marker date="1580568715367" expanded="false" signature="6:102" ph="..." />
+            <marker date="1580568715367" expanded="true" signature="148:3636" ph="{...}" />
+            <marker date="1580568715367" expanded="true" signature="2118:2447" ph="{...}" />
+            <marker date="1580568715367" expanded="true" signature="2465:3629" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/WildGeneration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/EnvironmentGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/PoissonDiscSampling.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="74" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
+        <state relative-caret-position="34">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="32" />
           <folding>
             <marker date="1542915766000" expanded="false" signature="6:78" ph="..." />
             <marker date="1542915766000" expanded="true" signature="120:2256" ph="{...}" />
@@ -369,34 +629,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/Test.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Script/GenericElements.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="646">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding>
-            <marker date="1542915766000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542915766000" expanded="true" signature="114:579" ph="{...}" />
-            <marker date="1542915766000" expanded="true" signature="296:385" ph="{...}" />
-            <marker date="1542915766000" expanded="true" signature="408:577" ph="{...}" />
-            <marker date="1542915766000" expanded="true" signature="480:574" ph="{...}" />
-            <marker date="1542915766000" expanded="true" signature="519:570" ph="{...}" />
+            <marker date="1580571111776" expanded="false" signature="6:78" ph="..." />
+            <marker date="1580571111776" expanded="true" signature="125:1241" ph="{...}" />
+            <marker date="1580571111776" expanded="true" signature="514:612" ph="{...}" />
+            <marker date="1580571111776" expanded="true" signature="638:861" ph="{...}" />
+            <marker date="1580571111776" expanded="true" signature="725:855" ph="{...}" />
+            <marker date="1580571111776" expanded="true" signature="773:845" ph="{...}" />
+            <marker date="1580571111776" expanded="true" signature="888:1239" ph="{...}" />
+            <marker date="1580571111776" expanded="true" signature="1009:1233" ph="{...}" />
+            <marker date="1580571111776" expanded="true" signature="1057:1223" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/CharactereMove.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Enviro/GrassGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="54" column="61" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
+        <state relative-caret-position="289">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding>
-            <marker date="1580563096659" expanded="false" signature="6:102" ph="..." />
-            <marker date="1580563096659" expanded="true" signature="148:3171" ph="{...}" />
-            <marker date="1580563096659" expanded="true" signature="541:762" ph="{...}" />
-            <marker date="1580563096659" expanded="true" signature="821:1982" ph="{...}" />
-            <marker date="1580563096659" expanded="true" signature="878:1361" ph="{...}" />
-            <marker date="1580563096659" expanded="true" signature="928:1351" ph="{...}" />
-            <marker date="1580563096659" expanded="true" signature="1123:1337" ph="{...}" />
-            <marker date="1580563096659" expanded="true" signature="2000:3164" ph="{...}" />
+            <marker date="1580571733607" expanded="false" signature="6:78" ph="..." />
+            <marker date="1580571733607" expanded="true" signature="124:747" ph="{...}" />
+            <marker date="1580571733607" expanded="true" signature="233:240" ph="{...}" />
+            <marker date="1580571733607" expanded="true" signature="299:306" ph="{...}" />
+            <marker date="1580571733607" expanded="true" signature="356:745" ph="{...}" />
+            <marker date="1580571733607" expanded="true" signature="410:739" ph="{...}" />
+            <marker date="1580571733607" expanded="true" signature="450:607" ph="{...}" />
+            <marker date="1580571733607" expanded="true" signature="607:729" ph="{...}" />
           </folding>
         </state>
       </provider>
