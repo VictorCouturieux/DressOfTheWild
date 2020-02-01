@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f815fa2-afd0-4569-a96d-2be000957de9" name="Default Changelist" comment="Grass generator">
+    <list default="true" id="2f815fa2-afd0-4569-a96d-2be000957de9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Charachere.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Charachere.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Enviro/HerbeToSpawn.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/HerbeToSpawn.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CharactereMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/CharactereMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneTOTOR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneTOTOR.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4170ea-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4170ea-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/26ef1d-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/26ef1d-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,30 +31,97 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="2029" />
-          <entry key="txt" value="79" />
+          <entry key="cs" value="2191" />
+          <entry key="txt" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="2029" />
-          <entry key="PLAIN_TEXT" value="79" />
+          <entry key="C#" value="2191" />
+          <entry key="PLAIN_TEXT" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="13" />
+          <entry key="cs" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="13" />
+          <entry key="C#" value="19" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/GameManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <marker date="1580590921711" expanded="false" signature="6:113" ph="..." />
+                <marker date="1580590921711" expanded="true" signature="115:428" ph="/// Created by COUTURIEUX VICTOR ... " />
+                <marker date="1580590921711" expanded="true" signature="470:1748" ph="{...}" />
+                <marker date="1580590921711" expanded="true" signature="854:938" ph="{...}" />
+                <marker date="1580590921711" expanded="true" signature="944:1033" ph="/// Awake is always called before any Start functions ... " />
+                <marker date="1580590921711" expanded="true" signature="1051:1601" ph="{...}" />
+                <marker date="1580590921711" expanded="true" signature="1053:1136" ph="/* Debug.Log(&quot;init GameManager&quot;); ... */" />
+                <marker date="1580590921711" expanded="true" signature="1673:1680" ph="{...}" />
+                <marker date="1580590921711" expanded="true" signature="1739:1746" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/PlaySound/SFB_SoundManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
+              <folding>
+                <marker date="1580592225019" expanded="false" signature="6:162" ph="..." />
+                <marker date="1580592225019" expanded="true" signature="164:736" ph="/// Created by COUTURIEUX VICTOR ... " />
+                <marker date="1580592225019" expanded="true" signature="783:4348" ph="{...}" />
+                <marker date="1580592225019" expanded="true" signature="789:962" ph="/// &lt;value&gt; ... " />
+                <marker date="1580592225019" expanded="true" signature="1070:1120" ph="/// &lt;value&gt; ... " />
+                <marker date="1580592225019" expanded="true" signature="1190:1247" ph="/// &lt;value&gt; ... " />
+                <marker date="1580592225019" expanded="true" signature="1393:1521" ph="/// &lt;value&gt; ... " />
+                <marker date="1580592225019" expanded="true" signature="1546:1676" ph="{...}" />
+                <marker date="1580592225019" expanded="true" signature="1683:1772" ph="/// Awake is always called before any Start functions ... " />
+                <marker date="1580592225019" expanded="true" signature="1790:1857" ph="{...}" />
+                <marker date="1580592225019" expanded="true" signature="1863:2285" ph="/// this is to call when the GameManager changes Unity scene. ... " />
+                <marker date="1580592225019" expanded="true" signature="2359:2623" ph="{...}" />
+                <marker date="1580592225019" expanded="true" signature="2361:2453" ph="/* Debug.Log(&quot;Log Sound Manager&quot;); ... */" />
+                <marker date="1580592225019" expanded="true" signature="2531:2617" ph="{...}" />
+                <marker date="1580592225019" expanded="true" signature="2700:2707" ph="{...}" />
+                <marker date="1580592225019" expanded="true" signature="2786:2793" ph="{...}" />
+                <marker date="1580592225019" expanded="true" signature="2799:3087" ph="/// can be call in all unity scene to play specific sound effect ... " />
+                <marker date="1580592225019" expanded="true" signature="3155:4346" ph="{...}" />
+                <marker date="1580592225019" expanded="true" signature="3300:4042" ph="{...}" />
+                <marker date="1580592225019" expanded="true" signature="4071:4340" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/PlaySound/SFB_AccessSoudFX.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <marker date="1580590777860" expanded="false" signature="6:78" ph="..." />
+                <marker date="1580590777860" expanded="true" signature="80:334" ph="/// Created by COUTURIEUX VICTOR ... " />
+                <marker date="1580590777860" expanded="true" signature="381:734" ph="{...}" />
+                <marker date="1580590777860" expanded="true" signature="513:613" ph="/// play the sound effect relative to access of to another menu ... " />
+                <marker date="1580590777860" expanded="true" signature="650:732" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/CharactereMove.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,19 +152,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/Enviro/MineGenerator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="238">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               <folding>
-                <marker date="1580585568069" expanded="false" signature="6:78" ph="..." />
-                <marker date="1580585568069" expanded="true" signature="123:817" ph="{...}" />
-                <marker date="1580585568069" expanded="true" signature="284:291" ph="{...}" />
-                <marker date="1580585568069" expanded="true" signature="350:358" ph="{...}" />
-                <marker date="1580585568069" expanded="true" signature="412:809" ph="{...}" />
-                <marker date="1580585568069" expanded="true" signature="468:803" ph="{...}" />
-                <marker date="1580585568069" expanded="true" signature="559:792" ph="{...}" />
+                <marker date="1580586011918" expanded="false" signature="6:78" ph="..." />
+                <marker date="1580586011918" expanded="true" signature="123:825" ph="{...}" />
+                <marker date="1580586011918" expanded="true" signature="284:291" ph="{...}" />
+                <marker date="1580586011918" expanded="true" signature="350:358" ph="{...}" />
+                <marker date="1580586011918" expanded="true" signature="412:817" ph="{...}" />
+                <marker date="1580586011918" expanded="true" signature="468:802" ph="{...}" />
+                <marker date="1580586011918" expanded="true" signature="559:792" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -135,25 +194,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/Enviro/GrassGenerator.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-              <folding>
-                <marker date="1580576403246" expanded="false" signature="6:78" ph="..." />
-                <marker date="1580576403246" expanded="true" signature="124:758" ph="{...}" />
-                <marker date="1580576403246" expanded="true" signature="233:240" ph="{...}" />
-                <marker date="1580576403246" expanded="true" signature="299:306" ph="{...}" />
-                <marker date="1580576403246" expanded="true" signature="356:756" ph="{...}" />
-                <marker date="1580576403246" expanded="true" signature="410:750" ph="{...}" />
-                <marker date="1580576403246" expanded="true" signature="450:618" ph="{...}" />
-                <marker date="1580576403246" expanded="true" signature="618:740" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/Test.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -165,30 +205,6 @@
                 <marker date="1542915766000" expanded="true" signature="408:577" ph="{...}" />
                 <marker date="1542915766000" expanded="true" signature="480:574" ph="{...}" />
                 <marker date="1542915766000" expanded="true" signature="519:570" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/PoissonDiscSampling.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding>
-                <marker date="1542915766000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1542915766000" expanded="true" signature="120:2256" ph="{...}" />
-                <marker date="1542915766000" expanded="true" signature="243:1341" ph="{...}" />
-                <marker date="1542915766000" expanded="true" signature="573:1320" ph="{...}" />
-                <marker date="1542915766000" expanded="true" signature="770:1243" ph="{...}" />
-                <marker date="1542915766000" expanded="true" signature="1044:1238" ph="{...}" />
-                <marker date="1542915766000" expanded="true" signature="1271:1315" ph="{...}" />
-                <marker date="1542915766000" expanded="true" signature="1474:2254" ph="{...}" />
-                <marker date="1542915766000" expanded="true" signature="1591:2235" ph="{...}" />
-                <marker date="1542915766000" expanded="true" signature="1944:2215" ph="{...}" />
-                <marker date="1542915766000" expanded="true" signature="1999:2210" ph="{...}" />
-                <marker date="1542915766000" expanded="true" signature="2063:2204" ph="{...}" />
-                <marker date="1542915766000" expanded="true" signature="2167:2197" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -235,12 +251,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/PlaySound/SFB_AccessSoudFX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Enviro/MineGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PoissonDiscSampling.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/GenericElements.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/CharactereMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../ProjetENJMIN/ProjetAssimilationENJMIN/WorldOfAdeliaProject/Assets/Scenes/IndividualTestScene/SceneVictor/scriptTOTOR/Script/player_s/SFB_PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/PlaySound/SFB_SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/FaceCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/XInputDotNet/Examples/XInputTestCS.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Test.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Enviro/GrassGenerator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -257,6 +276,10 @@
         <option value="$PROJECT_DIR$/Assets/Script/Enviro/GrassGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/CharactereMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Enviro/MineGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlaySound/SFB_AccessSoudFX.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlaySound/SFB_BackSoundFX.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlaySound/SFB_SoundManager.cs" />
       </list>
     </option>
   </component>
@@ -479,7 +502,7 @@
       <workItem from="1580515920532" duration="179000" />
       <workItem from="1580548676268" duration="1920000" />
       <workItem from="1580553613704" duration="3261000" />
-      <workItem from="1580562344520" duration="21116000" />
+      <workItem from="1580562344520" duration="26809000" />
     </task>
     <task id="LOCAL-00001" summary="characher prefab update">
       <created>1580566623349</created>
@@ -502,11 +525,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580571897903</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Mine haptique return&#10;and big explosion">
+      <created>1580586057125</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580586057126</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29528000" />
+    <option name="totallyTimeSpent" value="35221000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -519,7 +549,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="959" y="0" width="968" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10352423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -560,7 +589,8 @@
     <MESSAGE value="characher prefab update" />
     <MESSAGE value="Charachere Controler" />
     <MESSAGE value="Grass generator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Grass generator" />
+    <MESSAGE value="Mine haptique return&#10;and big explosion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mine haptique return&#10;and big explosion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -767,16 +797,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/Enviro/MineGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
-            <marker date="1580585568069" expanded="false" signature="6:78" ph="..." />
-            <marker date="1580585568069" expanded="true" signature="123:817" ph="{...}" />
-            <marker date="1580585568069" expanded="true" signature="284:291" ph="{...}" />
-            <marker date="1580585568069" expanded="true" signature="350:358" ph="{...}" />
-            <marker date="1580585568069" expanded="true" signature="412:809" ph="{...}" />
-            <marker date="1580585568069" expanded="true" signature="468:803" ph="{...}" />
-            <marker date="1580585568069" expanded="true" signature="559:792" ph="{...}" />
+            <marker date="1580586011918" expanded="false" signature="6:78" ph="..." />
+            <marker date="1580586011918" expanded="true" signature="123:825" ph="{...}" />
+            <marker date="1580586011918" expanded="true" signature="284:291" ph="{...}" />
+            <marker date="1580586011918" expanded="true" signature="350:358" ph="{...}" />
+            <marker date="1580586011918" expanded="true" signature="412:817" ph="{...}" />
+            <marker date="1580586011918" expanded="true" signature="468:802" ph="{...}" />
+            <marker date="1580586011918" expanded="true" signature="559:792" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/PlaySound/SFB_BackSoundFX.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <marker date="1580590921711" expanded="false" signature="6:113" ph="..." />
+            <marker date="1580590921711" expanded="true" signature="115:428" ph="/// Created by COUTURIEUX VICTOR ... " />
+            <marker date="1580590921711" expanded="true" signature="470:1748" ph="{...}" />
+            <marker date="1580590921711" expanded="true" signature="854:938" ph="{...}" />
+            <marker date="1580590921711" expanded="true" signature="944:1033" ph="/// Awake is always called before any Start functions ... " />
+            <marker date="1580590921711" expanded="true" signature="1051:1601" ph="{...}" />
+            <marker date="1580590921711" expanded="true" signature="1053:1136" ph="/* Debug.Log(&quot;init GameManager&quot;); ... */" />
+            <marker date="1580590921711" expanded="true" signature="1673:1680" ph="{...}" />
+            <marker date="1580590921711" expanded="true" signature="1739:1746" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/PlaySound/SFB_SoundLevelMusique.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/PlaySound/SFB_AccessSoudFX.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <marker date="1580590777860" expanded="false" signature="6:78" ph="..." />
+            <marker date="1580590777860" expanded="true" signature="80:334" ph="/// Created by COUTURIEUX VICTOR ... " />
+            <marker date="1580590777860" expanded="true" signature="381:734" ph="{...}" />
+            <marker date="1580590777860" expanded="true" signature="513:613" ph="/// play the sound effect relative to access of to another menu ... " />
+            <marker date="1580590777860" expanded="true" signature="650:732" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/PlaySound/SFB_SoundManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <marker date="1580592225019" expanded="false" signature="6:162" ph="..." />
+            <marker date="1580592225019" expanded="true" signature="164:736" ph="/// Created by COUTURIEUX VICTOR ... " />
+            <marker date="1580592225019" expanded="true" signature="783:4348" ph="{...}" />
+            <marker date="1580592225019" expanded="true" signature="789:962" ph="/// &lt;value&gt; ... " />
+            <marker date="1580592225019" expanded="true" signature="1070:1120" ph="/// &lt;value&gt; ... " />
+            <marker date="1580592225019" expanded="true" signature="1190:1247" ph="/// &lt;value&gt; ... " />
+            <marker date="1580592225019" expanded="true" signature="1393:1521" ph="/// &lt;value&gt; ... " />
+            <marker date="1580592225019" expanded="true" signature="1546:1676" ph="{...}" />
+            <marker date="1580592225019" expanded="true" signature="1683:1772" ph="/// Awake is always called before any Start functions ... " />
+            <marker date="1580592225019" expanded="true" signature="1790:1857" ph="{...}" />
+            <marker date="1580592225019" expanded="true" signature="1863:2285" ph="/// this is to call when the GameManager changes Unity scene. ... " />
+            <marker date="1580592225019" expanded="true" signature="2359:2623" ph="{...}" />
+            <marker date="1580592225019" expanded="true" signature="2361:2453" ph="/* Debug.Log(&quot;Log Sound Manager&quot;); ... */" />
+            <marker date="1580592225019" expanded="true" signature="2531:2617" ph="{...}" />
+            <marker date="1580592225019" expanded="true" signature="2700:2707" ph="{...}" />
+            <marker date="1580592225019" expanded="true" signature="2786:2793" ph="{...}" />
+            <marker date="1580592225019" expanded="true" signature="2799:3087" ph="/// can be call in all unity scene to play specific sound effect ... " />
+            <marker date="1580592225019" expanded="true" signature="3155:4346" ph="{...}" />
+            <marker date="1580592225019" expanded="true" signature="3300:4042" ph="{...}" />
+            <marker date="1580592225019" expanded="true" signature="4071:4340" ph="{...}" />
           </folding>
         </state>
       </provider>
