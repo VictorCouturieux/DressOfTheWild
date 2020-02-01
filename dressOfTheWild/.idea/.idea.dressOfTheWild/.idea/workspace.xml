@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f815fa2-afd0-4569-a96d-2be000957de9" name="Default Changelist" comment="" />
+    <list default="true" id="2f815fa2-afd0-4569-a96d-2be000957de9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Charachere.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Charachere.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4170ea-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4170ea-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/26ef1d-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/26ef1d-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +51,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Script/CharactereMove.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="693">
               <caret line="54" column="61" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
               <folding>
                 <marker date="1580563096659" expanded="false" signature="6:102" ph="..." />
@@ -80,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/PoissonDiscSampling.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="357">
+              <caret line="23" column="74" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
               <folding>
                 <marker date="1542915766000" expanded="false" signature="6:78" ph="..." />
                 <marker date="1542915766000" expanded="true" signature="120:2256" ph="{...}" />
@@ -242,12 +249,12 @@
       <workItem from="1580515920532" duration="179000" />
       <workItem from="1580548676268" duration="1920000" />
       <workItem from="1580553613704" duration="3261000" />
-      <workItem from="1580562344520" duration="1678000" />
+      <workItem from="1580562344520" duration="3450000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10090000" />
+    <option name="totallyTimeSpent" value="11862000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -259,7 +266,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.051705755" />
@@ -295,6 +302,10 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'master' of https://github.com/VictorCouturieux/DressOfTheWild&#10;&#10;# Conflicts:&#10;#&#9;dressOfTheWild/Assets/Prefab/Charachere.prefab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/VictorCouturieux/DressOfTheWild&#10;&#10;# Conflicts:&#10;#&#9;dressOfTheWild/Assets/Prefab/Charachere.prefab" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -336,19 +347,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/CharactereMove.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Script/PoissonDiscSampling.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="54" column="61" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
+        <state relative-caret-position="357">
+          <caret line="23" column="74" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
           <folding>
-            <marker date="1580563096659" expanded="false" signature="6:102" ph="..." />
-            <marker date="1580563096659" expanded="true" signature="148:3171" ph="{...}" />
-            <marker date="1580563096659" expanded="true" signature="541:762" ph="{...}" />
-            <marker date="1580563096659" expanded="true" signature="821:1982" ph="{...}" />
-            <marker date="1580563096659" expanded="true" signature="878:1361" ph="{...}" />
-            <marker date="1580563096659" expanded="true" signature="928:1351" ph="{...}" />
-            <marker date="1580563096659" expanded="true" signature="1123:1337" ph="{...}" />
-            <marker date="1580563096659" expanded="true" signature="2000:3164" ph="{...}" />
+            <marker date="1542915766000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542915766000" expanded="true" signature="120:2256" ph="{...}" />
+            <marker date="1542915766000" expanded="true" signature="243:1341" ph="{...}" />
+            <marker date="1542915766000" expanded="true" signature="573:1320" ph="{...}" />
+            <marker date="1542915766000" expanded="true" signature="770:1243" ph="{...}" />
+            <marker date="1542915766000" expanded="true" signature="1044:1238" ph="{...}" />
+            <marker date="1542915766000" expanded="true" signature="1271:1315" ph="{...}" />
+            <marker date="1542915766000" expanded="true" signature="1474:2254" ph="{...}" />
+            <marker date="1542915766000" expanded="true" signature="1591:2235" ph="{...}" />
+            <marker date="1542915766000" expanded="true" signature="1944:2215" ph="{...}" />
+            <marker date="1542915766000" expanded="true" signature="1999:2210" ph="{...}" />
+            <marker date="1542915766000" expanded="true" signature="2063:2204" ph="{...}" />
+            <marker date="1542915766000" expanded="true" signature="2167:2197" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -368,24 +384,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/PoissonDiscSampling.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Script/CharactereMove.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="693">
+          <caret line="54" column="61" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
           <folding>
-            <marker date="1542915766000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542915766000" expanded="true" signature="120:2256" ph="{...}" />
-            <marker date="1542915766000" expanded="true" signature="243:1341" ph="{...}" />
-            <marker date="1542915766000" expanded="true" signature="573:1320" ph="{...}" />
-            <marker date="1542915766000" expanded="true" signature="770:1243" ph="{...}" />
-            <marker date="1542915766000" expanded="true" signature="1044:1238" ph="{...}" />
-            <marker date="1542915766000" expanded="true" signature="1271:1315" ph="{...}" />
-            <marker date="1542915766000" expanded="true" signature="1474:2254" ph="{...}" />
-            <marker date="1542915766000" expanded="true" signature="1591:2235" ph="{...}" />
-            <marker date="1542915766000" expanded="true" signature="1944:2215" ph="{...}" />
-            <marker date="1542915766000" expanded="true" signature="1999:2210" ph="{...}" />
-            <marker date="1542915766000" expanded="true" signature="2063:2204" ph="{...}" />
-            <marker date="1542915766000" expanded="true" signature="2167:2197" ph="{...}" />
+            <marker date="1580563096659" expanded="false" signature="6:102" ph="..." />
+            <marker date="1580563096659" expanded="true" signature="148:3171" ph="{...}" />
+            <marker date="1580563096659" expanded="true" signature="541:762" ph="{...}" />
+            <marker date="1580563096659" expanded="true" signature="821:1982" ph="{...}" />
+            <marker date="1580563096659" expanded="true" signature="878:1361" ph="{...}" />
+            <marker date="1580563096659" expanded="true" signature="928:1351" ph="{...}" />
+            <marker date="1580563096659" expanded="true" signature="1123:1337" ph="{...}" />
+            <marker date="1580563096659" expanded="true" signature="2000:3164" ph="{...}" />
           </folding>
         </state>
       </provider>
