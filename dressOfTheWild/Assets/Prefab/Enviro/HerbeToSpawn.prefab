@@ -97,6 +97,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedRange: {x: 0.5, y: 2}
+  scaleXRange: {x: 0.3, y: 1.2}
+  scaleYRange: {x: 0.3, y: 1}
   tintThanCanBeGive:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}

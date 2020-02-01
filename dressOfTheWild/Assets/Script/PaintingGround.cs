@@ -7,6 +7,11 @@ public class PaintingGround : MonoBehaviour
     public float lenghtOfThatRay = 1.5f;
     public LayerMask layerMaskIfNeeded;
 
+    public List<Transform> raycastPoint;
+
+    public List<GameObject> aRandomHerb = new List<GameObject>();
+    public Vector3 lastSpawnPoint = Vector3.zero;
+
     MeshFilter meshMesh;
 
     public Vector3 lastPosition = Vector3.zero;
@@ -44,7 +49,10 @@ public class PaintingGround : MonoBehaviour
             meshMesh.mesh.colors = colorVertex;
         }
 
-
+        if((lastSpawnPoint - this.transform.position).sqrMagnitude > 1f*1f && Random.Range(0,100) < 10)
+        {
+            Instantiate(aRandomHerb[Random.Range(0, aRandomHerb.Count)], this.transform.position, Quaternion.identity);
+        }
 
         lastPosition = this.transform.position;
     }
