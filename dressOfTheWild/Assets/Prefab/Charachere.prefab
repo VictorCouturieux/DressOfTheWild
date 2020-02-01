@@ -80,7 +80,7 @@ MonoBehaviour:
   lenghtOfThatRay: 1.5
   layerMaskIfNeeded:
     serializedVersion: 2
-    m_Bits: 311
+    m_Bits: 512
   lastPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &3323595242937850152
 GameObject:
