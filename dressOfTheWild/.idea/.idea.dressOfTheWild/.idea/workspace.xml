@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f815fa2-afd0-4569-a96d-2be000957de9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Charachere.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Charachere.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneTOTOR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneTOTOR.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4170ea-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4170ea-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/26ef1d-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/26ef1d-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
     </list>
@@ -31,14 +26,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="2191" />
-          <entry key="txt" value="120" />
+          <entry key="cs" value="2202" />
+          <entry key="txt" value="132" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="2191" />
-          <entry key="PLAIN_TEXT" value="120" />
+          <entry key="C#" value="2202" />
+          <entry key="PLAIN_TEXT" value="132" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -75,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/PlaySound/SFB_SoundManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="381">
+              <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
               <folding>
                 <marker date="1580592225019" expanded="false" signature="6:162" ph="..." />
                 <marker date="1580592225019" expanded="true" signature="164:736" ph="/// Created by COUTURIEUX VICTOR ... " />
@@ -170,24 +165,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Script/GenericElements.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="40" column="74" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="74" />
+            <state relative-caret-position="340">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
-                <marker date="1580576403305" expanded="false" signature="6:78" ph="..." />
-                <marker date="1580576403305" expanded="true" signature="125:1731" ph="{...}" />
-                <marker date="1580576403305" expanded="true" signature="548:646" ph="{...}" />
-                <marker date="1580576403305" expanded="true" signature="672:895" ph="{...}" />
-                <marker date="1580576403305" expanded="true" signature="759:889" ph="{...}" />
-                <marker date="1580576403305" expanded="true" signature="807:879" ph="{...}" />
-                <marker date="1580576403305" expanded="true" signature="922:1729" ph="{...}" />
-                <marker date="1580576403305" expanded="true" signature="1043:1723" ph="{...}" />
-                <marker date="1580576403305" expanded="true" signature="1116:1713" ph="{...}" />
-                <marker date="1580576403305" expanded="true" signature="1201:1427" ph="{...}" />
-                <marker date="1580576403305" expanded="true" signature="1247:1409" ph="{...}" />
-                <marker date="1580576403305" expanded="true" signature="1427:1674" ph="{...}" />
+                <marker date="1580593167510" expanded="false" signature="6:78" ph="..." />
+                <marker date="1580593167510" expanded="true" signature="125:1754" ph="{...}" />
+                <marker date="1580593167510" expanded="true" signature="548:669" ph="{...}" />
+                <marker date="1580593167510" expanded="true" signature="695:918" ph="{...}" />
+                <marker date="1580593167510" expanded="true" signature="782:912" ph="{...}" />
+                <marker date="1580593167510" expanded="true" signature="830:902" ph="{...}" />
+                <marker date="1580593167510" expanded="true" signature="945:1752" ph="{...}" />
+                <marker date="1580593167510" expanded="true" signature="1066:1746" ph="{...}" />
+                <marker date="1580593167510" expanded="true" signature="1139:1736" ph="{...}" />
+                <marker date="1580593167510" expanded="true" signature="1224:1450" ph="{...}" />
+                <marker date="1580593167510" expanded="true" signature="1270:1432" ph="{...}" />
+                <marker date="1580593167510" expanded="true" signature="1450:1697" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -272,7 +267,6 @@
         <option value="$PROJECT_DIR$/Assets/Script/PoissonDiscSampling.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Test.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/WildGeneration.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/GenericElements.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Enviro/GrassGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/CharactereMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Enviro/MineGenerator.cs" />
@@ -280,6 +274,7 @@
         <option value="$PROJECT_DIR$/Assets/Script/PlaySound/SFB_BackSoundFX.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlaySound/SFB_SoundManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/GenericElements.cs" />
       </list>
     </option>
   </component>
@@ -502,7 +497,7 @@
       <workItem from="1580515920532" duration="179000" />
       <workItem from="1580548676268" duration="1920000" />
       <workItem from="1580553613704" duration="3261000" />
-      <workItem from="1580562344520" duration="26809000" />
+      <workItem from="1580562344520" duration="27613000" />
     </task>
     <task id="LOCAL-00001" summary="characher prefab update">
       <created>1580566623349</created>
@@ -532,11 +527,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580586057126</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="SoundManager">
+      <created>1580592262232</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580592262232</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35221000" />
+    <option name="totallyTimeSpent" value="36025000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -549,6 +551,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="959" y="0" width="968" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10352423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -590,7 +593,8 @@
     <MESSAGE value="Charachere Controler" />
     <MESSAGE value="Grass generator" />
     <MESSAGE value="Mine haptique return&#10;and big explosion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mine haptique return&#10;and big explosion" />
+    <MESSAGE value="SoundManager" />
+    <option name="LAST_COMMIT_MESSAGE" value="SoundManager" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -746,27 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/GenericElements.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="40" column="74" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="74" />
-          <folding>
-            <marker date="1580576403305" expanded="false" signature="6:78" ph="..." />
-            <marker date="1580576403305" expanded="true" signature="125:1731" ph="{...}" />
-            <marker date="1580576403305" expanded="true" signature="548:646" ph="{...}" />
-            <marker date="1580576403305" expanded="true" signature="672:895" ph="{...}" />
-            <marker date="1580576403305" expanded="true" signature="759:889" ph="{...}" />
-            <marker date="1580576403305" expanded="true" signature="807:879" ph="{...}" />
-            <marker date="1580576403305" expanded="true" signature="922:1729" ph="{...}" />
-            <marker date="1580576403305" expanded="true" signature="1043:1723" ph="{...}" />
-            <marker date="1580576403305" expanded="true" signature="1116:1713" ph="{...}" />
-            <marker date="1580576403305" expanded="true" signature="1201:1427" ph="{...}" />
-            <marker date="1580576403305" expanded="true" signature="1247:1409" ph="{...}" />
-            <marker date="1580576403305" expanded="true" signature="1427:1674" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/CharactereMove.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
@@ -859,8 +842,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/PlaySound/SFB_SoundManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="381">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
           <folding>
             <marker date="1580592225019" expanded="false" signature="6:162" ph="..." />
             <marker date="1580592225019" expanded="true" signature="164:736" ph="/// Created by COUTURIEUX VICTOR ... " />
@@ -882,6 +865,27 @@
             <marker date="1580592225019" expanded="true" signature="3155:4346" ph="{...}" />
             <marker date="1580592225019" expanded="true" signature="3300:4042" ph="{...}" />
             <marker date="1580592225019" expanded="true" signature="4071:4340" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/GenericElements.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <marker date="1580593167510" expanded="false" signature="6:78" ph="..." />
+            <marker date="1580593167510" expanded="true" signature="125:1754" ph="{...}" />
+            <marker date="1580593167510" expanded="true" signature="548:669" ph="{...}" />
+            <marker date="1580593167510" expanded="true" signature="695:918" ph="{...}" />
+            <marker date="1580593167510" expanded="true" signature="782:912" ph="{...}" />
+            <marker date="1580593167510" expanded="true" signature="830:902" ph="{...}" />
+            <marker date="1580593167510" expanded="true" signature="945:1752" ph="{...}" />
+            <marker date="1580593167510" expanded="true" signature="1066:1746" ph="{...}" />
+            <marker date="1580593167510" expanded="true" signature="1139:1736" ph="{...}" />
+            <marker date="1580593167510" expanded="true" signature="1224:1450" ph="{...}" />
+            <marker date="1580593167510" expanded="true" signature="1270:1432" ph="{...}" />
+            <marker date="1580593167510" expanded="true" signature="1450:1697" ph="{...}" />
           </folding>
         </state>
       </provider>
