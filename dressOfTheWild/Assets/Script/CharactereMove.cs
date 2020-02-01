@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using XInputDotNetPure;
@@ -20,6 +21,8 @@ public class CharactereMove : MonoBehaviour {
     PaintingGround paint;
     Animator visualAnimator;
     public float slowDownAnimator = 1f;
+
+    private Collider MineCollider;
 
     // Start is called before the first frame update
     void Start() {
@@ -59,15 +62,17 @@ public class CharactereMove : MonoBehaviour {
         visualAnimator.SetFloat("MoveY", Mathf.Abs(state.ThumbSticks.Left.Y) > 0.1f ? 1 * Mathf.Sign(state.ThumbSticks.Left.Y) : 0);
         visualAnimator.speed = moveDirection.magnitude * slowDownAnimator;
 
-
         transform.GetChild(0).localRotation = new Quaternion(
             mainCamera.transform.rotation.x,
             mainCamera.transform.rotation.y,
             mainCamera.transform.rotation.z,
              transform.rotation.w);
+
         
         Cc.Move(moveDirection * Time.deltaTime);
 
+        detectMine();
+        
         paint.RaycastGround();
     }
 
@@ -83,5 +88,50 @@ public class CharactereMove : MonoBehaviour {
         text += string.Format("\tSticks Left {0} {1} Right {2} {3}\n", state.ThumbSticks.Left.X, state.ThumbSticks.Left.Y, state.ThumbSticks.Right.X, state.ThumbSticks.Right.Y);
         GUI.Label(new Rect(0, 0, Screen.width, Screen.height), text);
     }
+
+    private void detectMine() {
+        if (MineCollider != null) {
+            double dist = Vector3.Distance(MineCollider.transform.position, transform.position);
+            if (dist<=((SphereCollider)MineCollider).radius) {
+                float ratio = (float) (1.0f - dist / ((SphereCollider) MineCollider).radius);
+                ratio *= ratio;
+//                Debug.Log("ratio : " + ratio);
+                GamePad.SetVibration(playerIndex, ratio, ratio);
+            }else {
+                MineCollider = null;
+                GamePad.SetVibration(playerIndex, 0.0f, 0.0f);
+            }
+        }
+    }
     
+//    private void OnTriggerEnter(Collider other) {
+//        if (other.gameObject.name.Contains("MineSpown")) {
+//        }
+//    }
+
+    private void OnTriggerStay(Collider other) {
+        if (other.gameObject.name.Contains("MineSpown")) {
+//            Debug.Log("Stay");
+            if (MineCollider == null) {
+                MineCollider = other;
+            }
+            else {
+                double firstDist = Vector3.Distance(MineCollider.transform.position, transform.position);
+                double secondDist = Vector3.Distance(other.transform.position, transform.position);
+                if (firstDist<secondDist) {
+                    MineCollider = other;
+                }
+            }
+        }
+    }
+
+//    private void OnTriggerExit(Collider other) {
+//        if (other.gameObject.name.Contains("MineSpown")) {
+//            
+//        }
+//    }
+
+    private void OnApplicationQuit() {
+        GamePad.SetVibration(playerIndex, 0.0f, 0.0f);
+    }
 }
