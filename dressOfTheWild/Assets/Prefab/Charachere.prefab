@@ -281,6 +281,52 @@ MonoBehaviour:
   layerMaskIfNeeded:
     serializedVersion: 2
     m_Bits: 512
+  maxDistance: 2.5
+  theFalloutOfTheCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 5.054947
+      outSlope: 5.054947
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.041892007
+    - serializedVersion: 3
+      time: 0.29275623
+      value: 0.794418
+      inSlope: 0.99308467
+      outSlope: 0.99308467
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.044789944
+    - serializedVersion: 3
+      time: 0.7
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  aRandomHerb:
+  - {fileID: 281781535333319193, guid: 60967d88f97248f41b48493a07ab99f7, type: 3}
+  lastSpawnPoint: {x: 0, y: 0, z: 0}
   lastPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &3310005520377991859
 GameObject:
