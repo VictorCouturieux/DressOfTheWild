@@ -15,8 +15,13 @@
             <e p="MineGenerator.cs" t="Include" />
           </e>
           <e p="FaceCamera.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
           <e p="GenericElements.cs" t="Include" />
           <e p="PaintingGround.cs" t="Include" />
+          <e p="PlaySound" t="Include">
+            <e p="SFB_AccessSoudFX.cs" t="Include" />
+            <e p="SFB_SoundManager.cs" t="Include" />
+          </e>
           <e p="PoissonDiscSampling.cs" t="Include" />
           <e p="Test.cs" t="Include" />
         </e>
