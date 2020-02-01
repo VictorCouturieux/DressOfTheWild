@@ -2,27 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f815fa2-afd0-4569-a96d-2be000957de9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Library/APIUpdater/project-dependencies.graph" beforeDir="false" afterPath="$PROJECT_DIR$/Library/APIUpdater/project-dependencies.graph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/AssetImportState" beforeDir="false" afterPath="$PROJECT_DIR$/Library/AssetImportState" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneTOTOR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneTOTOR.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/CharactereMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/CharactereMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/lapin.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/lapin.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptMapper" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptMapper" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4170ea-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4170ea-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/26ef1d-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/26ef1d-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.polybrush/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.polybrush/Settings.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,34 +28,81 @@
     <session id="-1525251429">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="133" />
+          <entry key="cs" value="254" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="133" />
+          <entry key="C#" value="254" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Script/CharactereMove.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="765">
+              <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
               <folding>
-                <marker date="1580511151750" expanded="false" signature="6:78" ph="..." />
-                <marker date="1580511151750" expanded="true" signature="124:466" ph="{...}" />
-                <marker date="1580511151750" expanded="true" signature="305:362" ph="{...}" />
-                <marker date="1580511151750" expanded="true" signature="421:464" ph="{...}" />
+                <marker date="1580550186769" expanded="false" signature="6:102" ph="..." />
+                <marker date="1580550186769" expanded="true" signature="148:2765" ph="{...}" />
+                <marker date="1580550186769" expanded="true" signature="458:515" ph="{...}" />
+                <marker date="1580550186769" expanded="true" signature="574:1572" ph="{...}" />
+                <marker date="1580550186769" expanded="true" signature="577:1142" ph="/* if (!playerIndexSet || !prevState.IsConnected) ... */" />
+                <marker date="1580550186769" expanded="true" signature="1594:2758" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../../ProjetENJMIN/ProjetAssimilationENJMIN/WorldOfAdeliaProject/Assets/Scenes/IndividualTestScene/SceneVictor/scriptTOTOR/Script/player_s/SFB_PlayerMovement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-574">
+              <caret line="231" column="33" selection-start-line="231" selection-start-column="33" selection-end-line="231" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/XInputDotNet/Examples/XInputTestCS.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="58" column="115" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="115" />
+              <folding>
+                <marker date="1491636636000" expanded="false" signature="6:42" ph="..." />
+                <marker date="1491636636000" expanded="true" signature="103:3266" ph="{...}" />
+                <marker date="1491636636000" expanded="true" signature="272:341" ph="{...}" />
+                <marker date="1491636636000" expanded="true" signature="365:567" ph="{...}" />
+                <marker date="1491636636000" expanded="true" signature="380:475" ph="/* SetVibration should be sent in a slower rate. ... */" />
+                <marker date="1491636636000" expanded="true" signature="625:2082" ph="{...}" />
+                <marker date="1491636636000" expanded="true" signature="640:758" ph="/* Find a PlayerIndex, for a single player game ... */" />
+                <marker date="1491636636000" expanded="true" signature="813:1296" ph="{...}" />
+                <marker date="1491636636000" expanded="true" signature="863:1286" ph="{...}" />
+                <marker date="1491636636000" expanded="true" signature="1058:1272" ph="{...}" />
+                <marker date="1491636636000" expanded="true" signature="1524:1657" ph="{...}" />
+                <marker date="1491636636000" expanded="true" signature="1810:1919" ph="{...}" />
+                <marker date="1491636636000" expanded="true" signature="2100:3264" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -73,7 +114,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/XInputDotNet/Examples/XInputTestCS.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/CharactereMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../ProjetENJMIN/ProjetAssimilationENJMIN/WorldOfAdeliaProject/Assets/Scenes/IndividualTestScene/SceneVictor/scriptTOTOR/Script/player_s/SFB_PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -99,13 +142,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,12 +194,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580510865955</updated>
-      <workItem from="1580510871651" duration="523000" />
+      <workItem from="1580510871651" duration="3052000" />
+      <workItem from="1580515920532" duration="179000" />
+      <workItem from="1580548676268" duration="1461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="523000" />
+    <option name="totallyTimeSpent" value="4692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -168,10 +213,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="959" y="0" width="968" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12582056" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10242291" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -216,15 +261,46 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../../../ProjetENJMIN/ProjetAssimilationENJMIN/WorldOfAdeliaProject/Assets/Scenes/IndividualTestScene/SceneVictor/scriptTOTOR/Script/player_s/SFB_PlayerMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-574">
+          <caret line="231" column="33" selection-start-line="231" selection-start-column="33" selection-end-line="231" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/XInputDotNet/Examples/XInputTestCS.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="58" column="115" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="115" />
+          <folding>
+            <marker date="1491636636000" expanded="false" signature="6:42" ph="..." />
+            <marker date="1491636636000" expanded="true" signature="103:3266" ph="{...}" />
+            <marker date="1491636636000" expanded="true" signature="272:341" ph="{...}" />
+            <marker date="1491636636000" expanded="true" signature="365:567" ph="{...}" />
+            <marker date="1491636636000" expanded="true" signature="380:475" ph="/* SetVibration should be sent in a slower rate. ... */" />
+            <marker date="1491636636000" expanded="true" signature="625:2082" ph="{...}" />
+            <marker date="1491636636000" expanded="true" signature="640:758" ph="/* Find a PlayerIndex, for a single player game ... */" />
+            <marker date="1491636636000" expanded="true" signature="813:1296" ph="{...}" />
+            <marker date="1491636636000" expanded="true" signature="863:1286" ph="{...}" />
+            <marker date="1491636636000" expanded="true" signature="1058:1272" ph="{...}" />
+            <marker date="1491636636000" expanded="true" signature="1524:1657" ph="{...}" />
+            <marker date="1491636636000" expanded="true" signature="1810:1919" ph="{...}" />
+            <marker date="1491636636000" expanded="true" signature="2100:3264" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/CharactereMove.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="765">
+          <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
           <folding>
-            <marker date="1580511151750" expanded="false" signature="6:78" ph="..." />
-            <marker date="1580511151750" expanded="true" signature="124:466" ph="{...}" />
-            <marker date="1580511151750" expanded="true" signature="305:362" ph="{...}" />
-            <marker date="1580511151750" expanded="true" signature="421:464" ph="{...}" />
+            <marker date="1580550186769" expanded="false" signature="6:102" ph="..." />
+            <marker date="1580550186769" expanded="true" signature="148:2765" ph="{...}" />
+            <marker date="1580550186769" expanded="true" signature="458:515" ph="{...}" />
+            <marker date="1580550186769" expanded="true" signature="574:1572" ph="{...}" />
+            <marker date="1580550186769" expanded="true" signature="577:1142" ph="/* if (!playerIndexSet || !prevState.IsConnected) ... */" />
+            <marker date="1580550186769" expanded="true" signature="1594:2758" ph="{...}" />
           </folding>
         </state>
       </provider>
