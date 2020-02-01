@@ -43,6 +43,18 @@ public class SFB_SoundManager : MonoBehaviour {
     public AudioClip[] RabbitSteps;
     public AudioClip Win;
 
+
+    /// <value>
+    /// for the crossfade for the two music
+    /// </value>
+    [Range(0, 3)]
+    public float volumeMusic = 0.5f;
+    [Range(0, 1)]
+    public float fadeValue = 0f;
+    public AnimationCurve fade;
+    public AudioSource _sadHappy;
+    public AudioSource _happyHappy;
+
     /// <value>
     /// Sound Effect enumeration can be call in 'PlaySoundFX' function to play related sound effect
     /// </value>
@@ -88,7 +100,24 @@ public class SFB_SoundManager : MonoBehaviour {
     }
 
     // Update is called before the first frame  (not used)
-    void Update() {
+    void Update()
+    {
+        Crossfade();
+    }
+
+
+    /// <summary>
+    /// crossfade between the sad music and the happy one
+    /// </summary>
+    public void Crossfade()
+    {
+        //Cross fade
+        if (_happyHappy == null || _sadHappy == null)
+            return;
+
+        float value = fadeValue;
+        _happyHappy.volume = fade.Evaluate(value) * volumeMusic;
+        _sadHappy.volume = fade.Evaluate(1 - value) * volumeMusic;
     }
 
     /// <summary>

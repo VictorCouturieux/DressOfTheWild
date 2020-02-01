@@ -9,9 +9,10 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Ground-Both
   m_Shader: {fileID: 4800000, guid: 81d02e8644315b742b154842a3a2f98c, type: 3}
-  m_ShaderKeywords: _LAYER_MAPPING_TRIPLANAR0 _LAYER_MAPPING_TRIPLANAR1 _LAYER_MAPPING_TRIPLANAR_BLENDMASK
-    _LAYER_MASK_VERTEX_COLOR_MUL _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1
-    _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3
+  m_ShaderKeywords: _HEIGHTMAP0 _HEIGHTMAP1 _LAYER_MAPPING_TRIPLANAR0 _LAYER_MAPPING_TRIPLANAR1
+    _LAYER_MAPPING_TRIPLANAR_BLENDMASK _LAYER_MASK_VERTEX_COLOR_MUL _NORMALMAP0 _NORMALMAP1
+    _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1 _NORMALMAP_TANGENT_SPACE2
+    _NORMALMAP_TANGENT_SPACE3
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -31,11 +32,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap0:
-        m_Texture: {fileID: 2800000, guid: a93926f36f9f0834abd8e113ce2faac3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4bc8a83a21e25244ab68140959ad3a9b, type: 3}
         m_Scale: {x: 0.2, y: 0.2}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap1:
-        m_Texture: {fileID: 2800000, guid: 2916f61aaee85634b907d73097bb727a, type: 3}
+        m_Texture: {fileID: 2800000, guid: dcbbdad1750d0d9438068ab4e38461eb, type: 3}
         m_Scale: {x: 0.1, y: 0.1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap2:
@@ -123,11 +124,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HeightMap0:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 1859a4887f8db0c4ca902c905fc40161, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HeightMap1:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 225fdcd3fd205834dbafbdbd77682ace, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HeightMap2:
@@ -183,11 +184,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap0:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: c00991eed48e2ee44a23964352ee3655, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap1:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 2403031ae1713d1429c22ee3886d70f2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap2:
@@ -456,7 +457,7 @@ Material:
     - _RefractionModel: 0
     - _SSRefractionProjectionModel: 0
     - _Smoothness: 0.5
-    - _Smoothness0: 0.257
+    - _Smoothness0: 0.5
     - _Smoothness1: 0
     - _Smoothness2: 0.5
     - _Smoothness3: 0.5
