@@ -9,6 +9,7 @@ public class AnimationEvent : MonoBehaviour
     public AudioSource efxSource;
 
     public GameObject onde;
+    public AnimationCurve ondeSizeCurve;
 
     private List<GameObject> ondes = new List<GameObject>();
 
@@ -28,6 +29,7 @@ public class AnimationEvent : MonoBehaviour
         Vector3 pos = ondeSource.transform.position + charac.lastMovement * offsetValue;
 
         GameObject instan = Instantiate(onde, pos, Quaternion.identity);
+        instan.transform.localScale *= ondeSizeCurve.Evaluate(charac.lastSpeed);
         ondes.Add(instan);
         Invoke("DestroyOnde",1f);
     }

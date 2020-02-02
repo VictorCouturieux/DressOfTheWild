@@ -54,7 +54,7 @@ public class PaintingGround : MonoBehaviour
 
 
 
-    public void RaycastGround()
+    public void RaycastGround(float velocity)
     {
         if ((lastPosition - transform.position).sqrMagnitude < 0.05f)
             return;
@@ -87,14 +87,14 @@ public class PaintingGround : MonoBehaviour
             pos /= 3f;
 
             Vector3 worldPos = meshMesh.transform.TransformPoint(pos);
-            BrushIt(meshMesh, pos, maxDistance, false);
+            BrushIt(meshMesh, pos, maxDistance * velocity, false);
             //Is there other Mesh touch ?
             foreach (MeshFilter meshFil in meshTouch)
             {
                 if(meshFil.name != meshMesh.name)
                 {
                     pos = meshFil.transform.InverseTransformPoint(worldPos);
-                    BrushIt(meshFil, pos, maxDistance, false);
+                    BrushIt(meshFil, pos, maxDistance * velocity, false);
                 }
             }
 

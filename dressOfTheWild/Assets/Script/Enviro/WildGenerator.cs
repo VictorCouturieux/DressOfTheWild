@@ -57,7 +57,7 @@ public class WildGenerator : MonoBehaviour {
     }
 
     private void DeleteAllChild(Transform root) {
-        for (int i = 0; i < root.GetChildCount(); i++) {
+        for (int i = 0; i < root.childCount; i++) {
             Destroy(root.GetChild(i).gameObject);
         }
     }

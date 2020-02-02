@@ -227,7 +227,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2152370538691244130}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5181137638910052068}
@@ -268,9 +268,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   lastMovement: {x: 0, y: 0, z: 0}
+  lastSpeed: 0
   slowDownAnimator: 0.5
+  zoneSize:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 3.1250012
+      outSlope: 3.1250012
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.015094334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   explosionForce: 40
-  explosionControllerSpeed: 0.3
+  explosionControllerSpeed: 1
   howLong: 1.5
   explosionCurve:
     serializedVersion: 2
@@ -321,7 +346,7 @@ MonoBehaviour:
   layerMaskIfNeeded:
     serializedVersion: 2
     m_Bits: 512
-  maxDistance: 1.8
+  maxDistance: 1.3
   theFalloutOfTheCurve:
     serializedVersion: 2
     m_Curve:
@@ -556,7 +581,7 @@ Transform:
   m_GameObject: {fileID: 3920793690123071640}
   m_LocalRotation: {x: -0.3420201, y: 0, z: 0, w: 0.9396927}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_Children:
   - {fileID: 6317674916065155882}
   - {fileID: 8772800882002036792}
@@ -627,6 +652,30 @@ MonoBehaviour:
   ondeSource: {fileID: 5320948529647476401}
   efxSource: {fileID: 4068317144670826701}
   onde: {fileID: 5903815902843249143, guid: e8ed0e7570cd5014cbb0d73784643ba8, type: 3}
+  ondeSizeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!82 &4068317144670826701
 AudioSource:
   m_ObjectHideFlags: 0

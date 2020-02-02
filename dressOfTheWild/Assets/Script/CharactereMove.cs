@@ -7,8 +7,9 @@ using XInputDotNetPure;
 public class CharactereMove : MonoBehaviour {
     public float speed = 6f;
     [HideInInspector] public Vector3 lastMovement = Vector3.zero;
+    [HideInInspector] public float lastSpeed = 0;
 
-    
+
     bool playerIndexSet = false;
     PlayerIndex playerIndex;
     GamePadState state;
@@ -22,6 +23,7 @@ public class CharactereMove : MonoBehaviour {
     PaintingGround paint;
     Animator visualAnimator;
     public float slowDownAnimator = 1f;
+    public AnimationCurve zoneSize;
 
     private Collider MineCollider;
 
@@ -65,10 +67,11 @@ public class CharactereMove : MonoBehaviour {
         moveDirection = new Vector3(state.ThumbSticks.Left.X,state.ThumbSticks.Left.Y,0);
         moveDirection = transform.TransformDirection(moveDirection);
         moveDirection *= speed;
+        float finalVelocity = moveDirection.magnitude;
 
         visualAnimator.SetFloat("MoveX", Mathf.Abs(state.ThumbSticks.Left.X) > 0.1f ? 1 * Mathf.Sign(state.ThumbSticks.Left.X) : 0);
         visualAnimator.SetFloat("MoveY", Mathf.Abs(state.ThumbSticks.Left.Y) > 0.1f ? 1 * Mathf.Sign(state.ThumbSticks.Left.Y) : 0);
-        visualAnimator.speed = moveDirection.magnitude * slowDownAnimator;
+        visualAnimator.speed = finalVelocity * slowDownAnimator;
 
         transform.GetChild(0).localRotation = new Quaternion(
             mainCamera.transform.rotation.x,
@@ -82,8 +85,11 @@ public class CharactereMove : MonoBehaviour {
         lastMovement = moveDirection;
 
         detectMine();
-        
-        paint.RaycastGround();
+
+        float ratioFloat = finalVelocity / speed;
+        paint.RaycastGround(zoneSize.Evaluate(ratioFloat));
+
+        lastSpeed = ratioFloat;
     }
 
     void OnGUI()
