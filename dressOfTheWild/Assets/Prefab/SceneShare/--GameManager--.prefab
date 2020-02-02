@@ -52,10 +52,7 @@ MonoBehaviour:
   ExplosionWithSound: {fileID: 8300000, guid: 625b5b3e51601a040a2461f7af5bedcf, type: 3}
   MenirPlacement: {fileID: 8300000, guid: 102468e83e4879147901041d920b51de, type: 3}
   RabbitSteps:
-  - {fileID: 8300000, guid: 312cc492c04b73c459d645d1126eec45, type: 3}
-  - {fileID: 8300000, guid: cf6264db775597d43bed458f42ab9d57, type: 3}
-  - {fileID: 8300000, guid: eec98e65e9bcf0549aae754554139b3f, type: 3}
-  - {fileID: 8300000, guid: 3fe7e838a44ccea40a38e017bf479763, type: 3}
+  - {fileID: 8300000, guid: 128f013ad69e4d94db0fc3604a442999, type: 3}
   Win: {fileID: 8300000, guid: fd349ed8f0f1fc848abd34f4ee0bd5f1, type: 3}
   volumeMusic: 0.5
   fadeValue: 0
@@ -417,4 +414,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6d571d43db99ac4387ff8abca66bd3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allMeshFilterGround: []
   _soundManager: {fileID: 4316520834240967508}
