@@ -6,6 +6,7 @@ using XInputDotNetPure;
 
 public class CharactereMove : MonoBehaviour {
     public float speed = 6f;
+    [HideInInspector] public Vector3 lastMovement = Vector3.zero;
 
     
     bool playerIndexSet = false;
@@ -24,6 +25,12 @@ public class CharactereMove : MonoBehaviour {
 
     private Collider MineCollider;
 
+    //Explosion
+    public float explosionForce = 20f;
+    public float explosionControllerSpeed = 0.3f;
+    public float howLong = 1f;
+    public AnimationCurve explosionCurve;
+    
 
     // Start is called before the first frame update
     void Start() {
@@ -36,7 +43,6 @@ public class CharactereMove : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        
 
         if (!playerIndexSet || !prevState.IsConnected)
         {
@@ -73,6 +79,8 @@ public class CharactereMove : MonoBehaviour {
         
         Cc.Move(moveDirection * Time.deltaTime);
 
+        lastMovement = moveDirection;
+
         detectMine();
         
         paint.RaycastGround();
@@ -106,10 +114,6 @@ public class CharactereMove : MonoBehaviour {
         }
     }
 
-    public float explosionForce = 20f;
-    public float explosionControllerSpeed = 0.3f;
-    public float howLong = 1f;
-    public AnimationCurve explosionCurve;
 
     public void Explosion(Vector3 source)
     {
@@ -118,13 +122,15 @@ public class CharactereMove : MonoBehaviour {
 
     public IEnumerator explosionMove(Vector3 sourcePos)
     {
-        Debug.Log("Start it ! Explode !");
+        //Debug.Log("Start it ! Explode !");
         float speedMemory = speed;
         speed = explosionControllerSpeed;
 
-        Vector3 explosionDirection = (this.transform.position- sourcePos);
+        Vector3 explosionDirection = (this.transform.position - sourcePos);
         explosionDirection.z = 0;
         explosionDirection.Normalize();
+        Debug.DrawRay(sourcePos, explosionDirection, Color.red, 2f);
+        //Debug.Log("explosionDirection = " + explosionDirection + " (this.transform.position - sourcePos) == (" + (this.transform.position) + " - " + sourcePos + ")");
         float timeStep = 1f / howLong;
         float lerp = 0;
         float currentIntensity = 1;
@@ -138,7 +144,7 @@ public class CharactereMove : MonoBehaviour {
         }
 
         speed = speedMemory;
-        Debug.Log("Finish it ! Explode !");
+        //Debug.Log("Finish it ! Explode !");
     }
 
 
