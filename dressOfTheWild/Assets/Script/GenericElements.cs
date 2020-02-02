@@ -13,13 +13,14 @@ public class GenericElements : MonoBehaviour {
     public GameObject[] objectTypes;
     public GameObject minePrefab;
 
-    public static List<GameObject> grassList;
-    public static List<GameObject> treeList;
-    public static List<GameObject> mineList;
+    public static int LenghtElemList = 0;
+    public static int CountAllHappy = 0;
+    
+    public static List<GameObject> elemList = new List<GameObject>();
+    public static List<GameObject> mineList = new List<GameObject>();
 
     void OnValidate() {
         points = PoissonDiscSampling.GeneratePoints(radius, regionSize, rejectionSamples);
-        
     }
 
     void OnDrawGizmos() {
@@ -45,11 +46,16 @@ public class GenericElements : MonoBehaviour {
                 }
                 else {
                     int rand = Random.Range(0, objectTypes.Length);
-                    Instantiate(objectTypes[rand], point, Quaternion.identity, 
-                        transform.GetChild(0).transform);
+                    GameObject elem = Instantiate(objectTypes[rand], point, Quaternion.identity, 
+                    transform.GetChild(0).transform);
+                    elemList.Add(elem);
                 }
                 index++;
             }
+            LenghtElemList = elemList.Count;
         }
     }
+    
+    
+    
 }

@@ -7,12 +7,13 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Script" t="Include">
+          <e p="AnimationEvent.cs" t="Include" />
           <e p="CameraMain.cs" t="Include" />
           <e p="CharactereMove.cs" t="Include" />
           <e p="Enviro" t="Include">
             <e p="AnimationOffset.cs" t="Include" />
-            <e p="GrassGenerator.cs" t="Include" />
             <e p="MineGenerator.cs" t="Include" />
+            <e p="WildGenerator.cs" t="Include" />
           </e>
           <e p="FaceCamera.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
