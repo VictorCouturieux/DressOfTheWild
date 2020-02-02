@@ -19,7 +19,7 @@ public class WildGenerator : MonoBehaviour {
     }
 
     private void OnTriggerEnter(Collider autre) {
-        if (autre.gameObject.name.Equals("Visual")) {
+        if (autre.gameObject.name.Equals("CharaVisual")) {
             ToHappy();
         }
     }

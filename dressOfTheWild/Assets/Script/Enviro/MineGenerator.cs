@@ -9,13 +9,9 @@ public class MineGenerator : MonoBehaviour {
     public List<MeshFilter> meshFilts = new List<MeshFilter>();
     
     private void OnTriggerEnter(Collider other) {
-
-        
-
-
-        if (touched)
             return;
-        if (other.gameObject.name.Contains("Visual")) {
+        if (touched)
+        if (other.gameObject.name.Contains("CharaVisual")) {
             CharactereMove characMove = other.GetComponentInParent<CharactereMove>();
 
             characMove.Explosion(this.transform.position, meshFilts);
