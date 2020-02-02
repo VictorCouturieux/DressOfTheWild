@@ -14,7 +14,7 @@ public class MineGenerator : MonoBehaviour {
     }
     
     private void OnTriggerEnter(Collider other) {
-        if (other.gameObject.name.Contains("Visual")) {
+        if (other.gameObject.name.Contains("CharaVisual")) {
             CharactereMove characMove = other.GetComponentInParent<CharactereMove>();
 
             characMove.Explosion(this.transform.position);

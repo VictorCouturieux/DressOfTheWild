@@ -18,7 +18,7 @@ public class CharactereMove : MonoBehaviour {
 
     private Transform visual;
     private Camera mainCamera;
-    
+
     private Vector3 moveDirection = Vector3.zero;
     CharacterController Cc;
     PaintingGround paint;
@@ -33,7 +33,12 @@ public class CharactereMove : MonoBehaviour {
     public float explosionControllerSpeed = 0.3f;
     public float howLong = 1f;
     public AnimationCurve explosionCurve;
-    
+
+    public Transform RotatePointTotem;
+    public GameObject TotemPrefab;
+
+    private GameObject CurrentTotem = null;
+
 
     // Start is called before the first frame update
     void Start() {
@@ -48,45 +53,58 @@ public class CharactereMove : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-
         if (Input.GetKeyDown(KeyCode.Escape))
             Application.Quit();
 
 
-        if (!playerIndexSet || !prevState.IsConnected)
-        {
-            for (int i = 0; i < 4; ++i)
-            {
-                PlayerIndex testPlayerIndex = (PlayerIndex)i;
+        if (!playerIndexSet || !prevState.IsConnected) {
+            for (int i = 0; i < 4; ++i) {
+                PlayerIndex testPlayerIndex = (PlayerIndex) i;
                 GamePadState testState = GamePad.GetState(testPlayerIndex);
-                if (testState.IsConnected)
-                {
+                if (testState.IsConnected) {
                     Debug.Log(string.Format("GamePad found {0}", testPlayerIndex));
                     playerIndex = testPlayerIndex;
                     playerIndexSet = true;
                 }
             }
         }
-        
+
         prevState = state;
         state = GamePad.GetState(playerIndex);
-        
-        moveDirection = new Vector3(state.ThumbSticks.Left.X,state.ThumbSticks.Left.Y,0);
+
+        moveDirection = new Vector3(state.ThumbSticks.Left.X, state.ThumbSticks.Left.Y, 0);
         moveDirection = transform.TransformDirection(moveDirection);
         moveDirection *= speed;
         float finalVelocity = moveDirection.magnitude;
 
-        visualAnimator.SetFloat("MoveX", Mathf.Abs(state.ThumbSticks.Left.X) > 0.1f ? 1 * Mathf.Sign(state.ThumbSticks.Left.X) : 0);
-        visualAnimator.SetFloat("MoveY", Mathf.Abs(state.ThumbSticks.Left.Y) > 0.1f ? 1 * Mathf.Sign(state.ThumbSticks.Left.Y) : 0);
+        visualAnimator.SetFloat("MoveX",
+            Mathf.Abs(state.ThumbSticks.Left.X) > 0.1f ? 1 * Mathf.Sign(state.ThumbSticks.Left.X) : 0);
+        visualAnimator.SetFloat("MoveY",
+            Mathf.Abs(state.ThumbSticks.Left.Y) > 0.1f ? 1 * Mathf.Sign(state.ThumbSticks.Left.Y) : 0);
         visualAnimator.speed = finalVelocity * slowDownAnimator;
 
         transform.GetChild(0).localRotation = new Quaternion(
             mainCamera.transform.rotation.x,
             mainCamera.transform.rotation.y,
             mainCamera.transform.rotation.z,
-             transform.rotation.w);
+            transform.rotation.w);
 
-        
+        Vector3 positionTotem = new Vector3(state.ThumbSticks.Left.X, state.ThumbSticks.Left.Y, 0).normalized * 1.5f;
+        if (positionTotem != Vector3.zero) {
+            RotatePointTotem.transform.localPosition = positionTotem;
+        }
+
+        if (prevState.Buttons.A == ButtonState.Released && state.Buttons.A == ButtonState.Pressed) {
+            if (CurrentTotem == null) {
+                Debug.Log("spownTotem");
+                Instantiate(TotemPrefab, RotatePointTotem.transform.position, Quaternion.identity);
+            }
+            else {
+                Debug.Log("DestroyTotem");
+                Destroy(CurrentTotem.transform.parent.gameObject);
+            }
+        }
+
         Cc.Move(moveDirection * Time.deltaTime);
 
         lastMovement = moveDirection;
@@ -102,8 +120,7 @@ public class CharactereMove : MonoBehaviour {
         lastSpeed = ratioFloat;
     }
 
-    void OnGUI()
-    {
+    void OnGUI() {
         /*string text = "Use left stick to turn the cube, hold A to change color\n";
         text += string.Format("IsConnected {0} Packet #{1}\n", state.IsConnected, state.PacketNumber);
         text += string.Format("\tTriggers {0} {1}\n", state.Triggers.Left, state.Triggers.Right);
@@ -118,12 +135,13 @@ public class CharactereMove : MonoBehaviour {
     private void detectMine() {
         if (MineCollider != null) {
             double dist = Vector3.Distance(MineCollider.transform.position, transform.position);
-            if (dist<=((SphereCollider)MineCollider).radius) {
+            if (dist <= ((SphereCollider) MineCollider).radius) {
                 float ratio = (float) (1.0f - dist / ((SphereCollider) MineCollider).radius);
                 ratio *= ratio;
 //                Debug.Log("ratio : " + ratio);
                 GamePad.SetVibration(playerIndex, ratio, ratio);
-            }else {
+            }
+            else {
                 MineCollider = null;
                 GamePad.SetVibration(playerIndex, 0.0f, 0.0f);
             }
@@ -131,14 +149,12 @@ public class CharactereMove : MonoBehaviour {
     }
 
 
-    public void Explosion(Vector3 source)
-    {
+    public void Explosion(Vector3 source) {
         StopAllCoroutines();
         StartCoroutine(explosionMove(source));
     }
 
-    public IEnumerator explosionMove(Vector3 sourcePos)
-    {
+    public IEnumerator explosionMove(Vector3 sourcePos) {
         //Debug.Log("Start it ! Explode !");
         speed = explosionControllerSpeed;
 
@@ -151,8 +167,7 @@ public class CharactereMove : MonoBehaviour {
         float lerp = 0;
         float currentIntensity = 1;
 
-        while (lerp<1)
-        {
+        while (lerp < 1) {
             lerp += Time.deltaTime * timeStep;
             currentIntensity = explosionCurve.Evaluate(lerp) * explosionForce;
             Cc.Move(explosionDirection * Time.deltaTime * currentIntensity);
@@ -164,10 +179,12 @@ public class CharactereMove : MonoBehaviour {
     }
 
 
-//    private void OnTriggerEnter(Collider other) {
-//        if (other.gameObject.name.Contains("MineSpown")) {
-//        }
-//    }
+    private void OnTriggerEnter(Collider other) {
+        if (other.gameObject.name.Contains("ColliderOtherTotem")) {
+            CurrentTotem = other.gameObject;
+            Debug.Log("OUI");
+        }
+    }
 
     private void OnTriggerStay(Collider other) {
         if (other.gameObject.name.Contains("MineSpown")) {
@@ -178,18 +195,23 @@ public class CharactereMove : MonoBehaviour {
             else {
                 double firstDist = Vector3.Distance(MineCollider.transform.position, transform.position);
                 double secondDist = Vector3.Distance(other.transform.position, transform.position);
-                if (firstDist<secondDist) {
+                if (firstDist < secondDist) {
                     MineCollider = other;
                 }
             }
         }
+        else if (other.gameObject.name.Contains("ColliderOtherTotem")) {
+            CurrentTotem = other.gameObject;
+            Debug.Log(CurrentTotem!=null);
+        }
     }
 
-//    private void OnTriggerExit(Collider other) {
-//        if (other.gameObject.name.Contains("MineSpown")) {
-//            
-//        }
-//    }
+    private void OnTriggerExit(Collider other) {
+        if (other.gameObject.name.Contains("ColliderOtherTotem")) {
+            CurrentTotem = null;
+            Debug.Log("NON");
+        }
+    }
 
     private void OnApplicationQuit() {
         GamePad.SetVibration(playerIndex, 0.0f, 0.0f);
