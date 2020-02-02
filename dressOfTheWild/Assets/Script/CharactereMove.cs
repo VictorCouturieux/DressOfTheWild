@@ -24,6 +24,7 @@ public class CharactereMove : MonoBehaviour {
 
     private Collider MineCollider;
 
+
     // Start is called before the first frame update
     void Start() {
         Cc = GetComponent<CharacterController>();
@@ -35,6 +36,7 @@ public class CharactereMove : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
+        
 
         if (!playerIndexSet || !prevState.IsConnected)
         {
@@ -103,7 +105,43 @@ public class CharactereMove : MonoBehaviour {
             }
         }
     }
-    
+
+    public float explosionForce = 20f;
+    public float explosionControllerSpeed = 0.3f;
+    public float howLong = 1f;
+    public AnimationCurve explosionCurve;
+
+    public void Explosion(Vector3 source)
+    {
+        StartCoroutine(explosionMove(source));
+    }
+
+    public IEnumerator explosionMove(Vector3 sourcePos)
+    {
+        Debug.Log("Start it ! Explode !");
+        float speedMemory = speed;
+        speed = explosionControllerSpeed;
+
+        Vector3 explosionDirection = (this.transform.position- sourcePos);
+        explosionDirection.z = 0;
+        explosionDirection.Normalize();
+        float timeStep = 1f / howLong;
+        float lerp = 0;
+        float currentIntensity = 1;
+
+        while (lerp<1)
+        {
+            lerp += Time.deltaTime * timeStep;
+            currentIntensity = explosionCurve.Evaluate(lerp) * explosionForce;
+            Cc.Move(explosionDirection * Time.deltaTime * currentIntensity);
+            yield return new WaitForSeconds(0.01f);
+        }
+
+        speed = speedMemory;
+        Debug.Log("Finish it ! Explode !");
+    }
+
+
 //    private void OnTriggerEnter(Collider other) {
 //        if (other.gameObject.name.Contains("MineSpown")) {
 //        }

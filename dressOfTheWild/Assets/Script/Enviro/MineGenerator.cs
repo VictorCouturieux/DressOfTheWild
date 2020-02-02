@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MineGenerator : MonoBehaviour {
-    public float explosionForce = 600.0f;
-    public float explosionRadius = 3.25f;
     
     // Start is called before the first frame update
     void Start() {
@@ -17,16 +15,14 @@ public class MineGenerator : MonoBehaviour {
     
     private void OnTriggerEnter(Collider other) {
         if (other.gameObject.name.Contains("Visual")) {
-            Rigidbody rb = other.GetComponent<Rigidbody>();
+            CharactereMove characMove = other.GetComponentInParent<CharactereMove>();
 
-            if (rb != null) {
-                Debug.Log("Explsion!!!!!!!!!!");
-                rb.AddExplosionForce(
-                    explosionForce,
-                    transform.position,
-                    explosionRadius
-                );
-            }
+            characMove.Explosion(this.transform.position);
+            //need to redraw the ground !
+
+        //move around the flower
+
+            //DeactivateHimself();
         }
         
     }
