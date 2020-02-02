@@ -12,6 +12,7 @@ public class WildGenerator : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
+//        ToSad();
     }
 
     // Update is called once per frame
@@ -21,6 +22,7 @@ public class WildGenerator : MonoBehaviour {
     private void OnTriggerEnter(Collider autre) {
         if (autre.gameObject.name.Equals("CharaVisual")) {
             ToHappy();
+            
         }
     }
 
@@ -47,9 +49,9 @@ public class WildGenerator : MonoBehaviour {
             GetComponent<Collider>().enabled = false;
             IsHappy = false;
             GenericElements.CountAllHappy--;
-            Debug.Log(GenericElements.CountAllHappy 
-                      + "/" + GenericElements.LenghtElemList 
-                      + "=" + GenericElements.CountAllHappy/GenericElements.LenghtElemList);
+//            Debug.Log(GenericElements.CountAllHappy 
+//                      + "/" + GenericElements.LenghtElemList 
+//                      + "=" + GenericElements.CountAllHappy/GenericElements.LenghtElemList);
         }
         else {
             Debug.LogError("NullPointerException : HerbePrefabs in GrassGenerator");
@@ -57,8 +59,12 @@ public class WildGenerator : MonoBehaviour {
     }
 
     private void DeleteAllChild(Transform root) {
-        for (int i = 0; i < root.childCount; i++) {
-            Destroy(root.GetChild(i).gameObject);
+        Debug.Log(root.childCount);
+        if (root.childCount>0) {
+            if (root.GetChild(0).gameObject!=null) {
+                Debug.Log("Destroy");
+                Destroy(root.GetChild(0).gameObject);
+            }
         }
     }
 }
