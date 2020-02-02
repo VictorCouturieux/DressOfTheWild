@@ -44,8 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 308dc037d1377784095e1565af348953, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HerbePrefabs: {fileID: 281781535333319193, guid: 60967d88f97248f41b48493a07ab99f7,
+  HappyPrefabs: {fileID: 281781535333319193, guid: 60967d88f97248f41b48493a07ab99f7,
     type: 3}
+  SadPrefabs: {fileID: 0}
+  IsHappy: 0
 --- !u!135 &4610416338742952380
 SphereCollider:
   m_ObjectHideFlags: 0
