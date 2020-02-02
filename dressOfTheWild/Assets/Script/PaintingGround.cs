@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Polybrush;
-using System.Linq;
-using UnityEditor.Polybrush;
 
 public class PaintingGround : MonoBehaviour
 {
@@ -58,9 +56,7 @@ public class PaintingGround : MonoBehaviour
     {
         if ((lastPosition - transform.position).sqrMagnitude < 0.05f)
             return;
-
-        Debug.Log("Raycast ?");
-
+       
         RaycastHit hitRay;
 
         Vector3 startPositionForTheRay = this.transform.position + Vector3.back;
@@ -72,7 +68,6 @@ public class PaintingGround : MonoBehaviour
 #endif
         if (Physics.Raycast(rayForWall, out hitRay, lenghtOfThatRay, layerMaskIfNeeded))
         {
-            Debug.Log("Raycast work !");
             //else, fetch one the mesh.
             if (meshMesh == null || meshMesh.name != hitRay.collider.name)
                 meshMesh = hitRay.collider.GetComponent<MeshFilter>();
@@ -99,7 +94,6 @@ public class PaintingGround : MonoBehaviour
                     BrushIt(meshFil, pos, maxDistance * velocity, false);
                 }
             }
-
         }
 
         if ((lastSpawnPoint - this.transform.position).sqrMagnitude > 1f*1f && Random.Range(0,100) < 10)
@@ -169,7 +163,7 @@ public class PaintingGround : MonoBehaviour
             colorVertex[indx] = new Color(1 - value, value, 0, 1);
         }
 
-        Debug.Log("Just paint :" + meshFil.name);
+        //Debug.Log("Just paint :" + meshFil.name);
 
         meshFil.mesh.colors = colorVertex;
     }
