@@ -31,9 +31,9 @@ public class WildGenerator : MonoBehaviour {
             GetComponent<Collider>().enabled = false;
             IsHappy = true;
             GenericElements.CountAllHappy++;
-            Debug.Log(GenericElements.CountAllHappy 
+            /*Debug.Log(GenericElements.CountAllHappy 
                       + "/" + GenericElements.LenghtElemList 
-                      + "=" + GenericElements.CountAllHappy/GenericElements.LenghtElemList);
+                      + "=" + GenericElements.CountAllHappy/GenericElements.LenghtElemList);*/
         }
         else {
             Debug.LogError("NullPointerException : HerbePrefabs in GrassGenerator");

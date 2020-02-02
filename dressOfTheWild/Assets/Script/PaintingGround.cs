@@ -59,18 +59,20 @@ public class PaintingGround : MonoBehaviour
         if ((lastPosition - transform.position).sqrMagnitude < 0.05f)
             return;
 
+        Debug.Log("Raycast ?");
+
         RaycastHit hitRay;
 
-        Vector3 startPositionForTheRay = this.transform.position;
+        Vector3 startPositionForTheRay = this.transform.position + Vector3.back;
         Vector3 direction = Vector3.forward * lenghtOfThatRay;
 
         Ray rayForWall = new Ray(startPositionForTheRay, direction);//use the current upVector to check.
 #if UNITY_EDITOR
-        Debug.DrawRay(startPositionForTheRay, direction, Color.cyan);
+        Debug.DrawRay(startPositionForTheRay, direction, Color.cyan, 3f);
 #endif
         if (Physics.Raycast(rayForWall, out hitRay, lenghtOfThatRay, layerMaskIfNeeded))
         {
-
+            Debug.Log("Raycast work !");
             //else, fetch one the mesh.
             if (meshMesh == null || meshMesh.name != hitRay.collider.name)
                 meshMesh = hitRay.collider.GetComponent<MeshFilter>();
@@ -166,6 +168,8 @@ public class PaintingGround : MonoBehaviour
 
             colorVertex[indx] = new Color(1 - value, value, 0, 1);
         }
+
+        Debug.Log("Just paint :" + meshFil.name);
 
         meshFil.mesh.colors = colorVertex;
     }

@@ -6,6 +6,7 @@ using XInputDotNetPure;
 
 public class CharactereMove : MonoBehaviour {
     public float speed = 6f;
+    private float speedNormal;
     [HideInInspector] public Vector3 lastMovement = Vector3.zero;
     [HideInInspector] public float lastSpeed = 0;
 
@@ -87,6 +88,9 @@ public class CharactereMove : MonoBehaviour {
         detectMine();
 
         float ratioFloat = finalVelocity / speed;
+        ratioFloat = Mathf.Clamp01(ratioFloat);
+        if (float.IsNaN(ratioFloat))
+            ratioFloat = 0;
         paint.RaycastGround(zoneSize.Evaluate(ratioFloat));
 
         lastSpeed = ratioFloat;
@@ -123,13 +127,13 @@ public class CharactereMove : MonoBehaviour {
 
     public void Explosion(Vector3 source)
     {
+        StopAllCoroutines();
         StartCoroutine(explosionMove(source));
     }
 
     public IEnumerator explosionMove(Vector3 sourcePos)
     {
         //Debug.Log("Start it ! Explode !");
-        float speedMemory = speed;
         speed = explosionControllerSpeed;
 
         Vector3 explosionDirection = (this.transform.position - sourcePos);
@@ -149,7 +153,7 @@ public class CharactereMove : MonoBehaviour {
             yield return new WaitForSeconds(0.01f);
         }
 
-        speed = speedMemory;
+        speed = speedNormal;
         //Debug.Log("Finish it ! Explode !");
     }
 
