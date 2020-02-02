@@ -7,18 +7,22 @@ using UnityEditor.Polybrush;
 
 public class PaintingGround : MonoBehaviour
 {
+    //Raycast
     public float lenghtOfThatRay = 1.5f;
     public LayerMask layerMaskIfNeeded;
 
+    //Brush
     public float maxDistance = 3f;
     public AnimationCurve theFalloutOfTheCurve;
 
+    //Herb
     public List<GameObject> aRandomHerb = new List<GameObject>();
-    public Vector3 lastSpawnPoint = Vector3.zero;
+    private Vector3 lastSpawnPoint = Vector3.zero;
+    public Transform folderHerb;
 
     MeshFilter meshMesh;
 
-    public Vector3 lastPosition = Vector3.zero;
+    private Vector3 lastPosition = Vector3.zero;
 
     //Mesh with you
     public List<MeshFilter> meshTouch = new List<MeshFilter>();
@@ -98,7 +102,7 @@ public class PaintingGround : MonoBehaviour
 
         if ((lastSpawnPoint - this.transform.position).sqrMagnitude > 1f*1f && Random.Range(0,100) < 10)
         {
-            Instantiate(aRandomHerb[Random.Range(0, aRandomHerb.Count)], this.transform.position, Quaternion.identity);
+            Instantiate(aRandomHerb[Random.Range(0, aRandomHerb.Count)], this.transform.position, Quaternion.identity, folderHerb);
         }
 
         lastPosition = this.transform.position;
