@@ -18,7 +18,10 @@ public class GameManager : MonoBehaviour {
         instance = null; //Static instance of GameManager which allows it to be accessed by any other script
 
     public static bool winGame = false;
-    
+
+
+    public List<MeshFilter> allMeshFilterGround = new List<MeshFilter>();
+
     ///<value>SoundManager singleton manager</value> 
     [SerializeField] private SFB_SoundManager _soundManager; //SoundManager prefab to instantiate.
 

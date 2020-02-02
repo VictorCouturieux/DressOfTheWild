@@ -84,14 +84,14 @@ public class PaintingGround : MonoBehaviour
             pos /= 3f;
 
             Vector3 worldPos = meshMesh.transform.TransformPoint(pos);
-            BrushIt(meshMesh, pos, maxDistance * velocity, false);
+            BrushIt(meshMesh, pos, maxDistance * velocity);
             //Is there other Mesh touch ?
             foreach (MeshFilter meshFil in meshTouch)
             {
                 if(meshFil.name != meshMesh.name)
                 {
                     pos = meshFil.transform.InverseTransformPoint(worldPos);
-                    BrushIt(meshFil, pos, maxDistance * velocity, false);
+                    BrushIt(meshFil, pos, maxDistance * velocity);
                 }
             }
         }
@@ -104,17 +104,16 @@ public class PaintingGround : MonoBehaviour
         lastPosition = this.transform.position;
     }
 
-    public void explodeIt(Vector3 transformPosition)
+    public void explodeIt(Vector3 transformPosition, List<MeshFilter> meshes)
     {
         RaycastHit hitRay;
 
         Vector3 startPositionForTheRay = transformPosition;
         Vector3 direction = Vector3.forward * lenghtOfThatRay;
 
-        Ray rayForWall = new Ray(startPositionForTheRay, direction);//use the current upVector to check.
-#if UNITY_EDITOR
-        Debug.DrawRay(startPositionForTheRay, direction, Color.red, 2f);
-#endif
+        Ray rayForWall = new Ray(startPositionForTheRay - Vector3.forward * 0.5f, direction);//use the current upVector to check.
+
+        Debug.DrawRay(startPositionForTheRay - Vector3.forward * 0.5f, direction, Color.red, 20f);
         if (Physics.Raycast(rayForWall, out hitRay, lenghtOfThatRay, layerMaskIfNeeded))
         {
             MeshFilter meshHere;
@@ -131,21 +130,34 @@ public class PaintingGround : MonoBehaviour
             pos += vertex[triangles[indexTriangle * 3 + 2]];
             pos /= 3f;
 
-            StartCoroutine(GrowExplosion(meshHere, pos, 0.1f, 4f));
+            float expansionSpeed = 12f;
+            
+            Vector3 worldPos = meshHere.transform.TransformPoint(pos);
 
+            if (!meshes.Contains(meshHere))
+                meshes.Add(meshHere);
+
+            StartCoroutine(GrowExplosion(meshes, pos, worldPos, 0.1f, 8f, expansionSpeed));
         }
     }
 
-    IEnumerator GrowExplosion(MeshFilter mesh, Vector3 positionCenter, float distanceDepart, float distanceMax)
+    IEnumerator GrowExplosion(List<MeshFilter> meshes, Vector3 positionCenter, Vector3 worldPosition, float distanceDepart, float distanceMax, float speedExpansion)
     {
+        Vector3 pos = positionCenter;
         while (distanceDepart < distanceMax)
         {
-            BrushIt(mesh, positionCenter, distanceDepart, true);
+            foreach (MeshFilter meshFil in meshes)
+            {
+                pos = meshFil.transform.InverseTransformPoint(worldPosition);
+                BrushItSadly(meshFil, pos, distanceDepart);
+            }
+
+            distanceDepart += Time.deltaTime * speedExpansion;
             yield return new WaitForSeconds(0.01f);
         }
     }
 
-    public void BrushIt(MeshFilter meshFil, Vector3 localPosition, float distance, bool sad)
+    public void BrushIt(MeshFilter meshFil, Vector3 localPosition, float distance)
     {
         Color[] colorVertex = meshFil.mesh.colors;
         Vector3[] vertex = meshFil.mesh.vertices;
@@ -168,5 +180,28 @@ public class PaintingGround : MonoBehaviour
         meshFil.mesh.colors = colorVertex;
     }
 
-    
+    public void BrushItSadly(MeshFilter meshFil, Vector3 localPosition, float distance)
+    {
+        Color[] colorVertex = meshFil.mesh.colors;
+        Vector3[] vertex = meshFil.mesh.vertices;
+        int[] triangles = meshFil.mesh.triangles;
+
+        for (int indx = 0; indx < colorVertex.Length; indx++)
+        {
+            //Distance square
+            Vector3 vec = vertex[indx] - localPosition;
+            float distanceSquare = vec.sqrMagnitude;
+            float value = Mathf.Max((((distance * distance) - distanceSquare) / (distance * distance)), 0);
+
+            value = Mathf.Max(theFalloutOfTheCurve.Evaluate(value), colorVertex[indx].r);
+
+            colorVertex[indx] = new Color(value, 1 - value, 0, 1);
+        }
+
+        //Debug.Log("Just paint (but sadly) :" + meshFil.name);
+
+        meshFil.mesh.colors = colorVertex;
+    }
+
+
 }

@@ -330,6 +330,49 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  explosionPPCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 7.5714316
+      outSlope: 7.5714316
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.09366379
+    - serializedVersion: 3
+      time: 0.100721516
+      value: 0.9971457
+      inSlope: 12.556879
+      outSlope: -2.0831816
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.044629358
+      outWeight: 0.1086649
+    - serializedVersion: 3
+      time: 0.26093823
+      value: 0.13921589
+      inSlope: -0.21607807
+      outSlope: -0.21607807
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  boomPostProcess: {fileID: 2931396088291234929}
 --- !u!114 &5058490318479792254
 MonoBehaviour:
   m_ObjectHideFlags: 0

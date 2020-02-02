@@ -33,6 +33,9 @@ public class CharactereMove : MonoBehaviour {
     public float explosionControllerSpeed = 0.3f;
     public float howLong = 1f;
     public AnimationCurve explosionCurve;
+    public AnimationCurve explosionPPCurve;
+
+    public UnityEngine.Rendering.Volume boomPostProcess;
     
 
     // Start is called before the first frame update
@@ -131,13 +134,13 @@ public class CharactereMove : MonoBehaviour {
     }
 
 
-    public void Explosion(Vector3 source)
+    public void Explosion(Vector3 source, List<MeshFilter> meshes)
     {
         StopAllCoroutines();
-        StartCoroutine(explosionMove(source));
+        StartCoroutine(explosionMove(source, meshes));
     }
 
-    public IEnumerator explosionMove(Vector3 sourcePos)
+    public IEnumerator explosionMove(Vector3 sourcePos, List<MeshFilter> meshes)
     {
         //Debug.Log("Start it ! Explode !");
         speed = explosionControllerSpeed;
@@ -151,11 +154,20 @@ public class CharactereMove : MonoBehaviour {
         float lerp = 0;
         float currentIntensity = 1;
 
-        while (lerp<1)
+        //Couleur first
+
+        paint.explodeIt(sourcePos, meshes);
+
+        while (lerp < 1)
         {
             lerp += Time.deltaTime * timeStep;
             currentIntensity = explosionCurve.Evaluate(lerp) * explosionForce;
             Cc.Move(explosionDirection * Time.deltaTime * currentIntensity);
+
+            //Post process value : animationCurve on his weight
+            boomPostProcess.weight = explosionPPCurve.Evaluate(lerp);
+            //Touch plant around (Ball of death expanding !!)
+
             yield return new WaitForSeconds(0.01f);
         }
 
