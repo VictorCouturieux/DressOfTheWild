@@ -42,7 +42,7 @@ Animator:
   m_GameObject: {fileID: 281781534363146846}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: faf0dcad2a62cb94db12837a6884b171, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -78,7 +78,7 @@ Transform:
   m_GameObject: {fileID: 281781535333319193}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.194, y: 0, z: 1.108}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.549822, y: 0.32263553, z: 1}
   m_Children:
   - {fileID: 281781534363146845}
   m_Father: {fileID: 0}
@@ -97,22 +97,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedRange: {x: 0.5, y: 2}
-  scaleXRange: {x: 0.3, y: 0.55}
-  scaleYRange: {x: 0.3, y: 0.65}
+  scaleXRange: {x: 1, y: 1}
+  scaleYRange: {x: 1, y: 2}
   tintThanCanBeGive:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
     key1: {r: 0, g: 0.96163225, b: 1, a: 1}
-    key2: {r: 0, g: 1, b: 0.4305303, a: 0}
-    key3: {r: 1, g: 0.9850809, b: 0.49275047, a: 0}
+    key2: {r: 0.4269313, g: 0.6306649, b: 0.7735849, a: 0}
+    key3: {r: 1, g: 1, b: 1, a: 0}
     key4: {r: 1, g: 0.9705882, b: 0, a: 0}
     key5: {r: 1, g: 1, b: 1, a: 0}
     key6: {r: 1, g: 1, b: 1, a: 0}
     key7: {r: 0, g: 0, b: 0, a: 0}
     ctime0: 0
-    ctime1: 11180
-    ctime2: 21588
-    ctime3: 42791
+    ctime1: 26985
+    ctime2: 52814
+    ctime3: 65535
     ctime4: 58403
     ctime5: 65535
     ctime6: 65535
@@ -126,7 +126,7 @@ MonoBehaviour:
     atime6: 0
     atime7: 0
     m_Mode: 0
-    m_NumColorKeys: 6
+    m_NumColorKeys: 4
     m_NumAlphaKeys: 2
 --- !u!114 &3440498813690176009
 MonoBehaviour:
@@ -210,7 +210,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c0df7a7dc299f9d49ba39976a17e531e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7246336, g: 0.82253003, b: 0.89120483, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
