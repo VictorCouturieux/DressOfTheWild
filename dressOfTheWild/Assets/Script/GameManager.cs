@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour {
     public static GameManager
         instance = null; //Static instance of GameManager which allows it to be accessed by any other script
 
+    public static bool winGame = false;
+    
     ///<value>SoundManager singleton manager</value> 
     [SerializeField] private SFB_SoundManager _soundManager; //SoundManager prefab to instantiate.
 
@@ -24,7 +26,7 @@ public class GameManager : MonoBehaviour {
         get { return _soundManager; }
         set { _soundManager = value; }
     }
-
+    
     ///<summary>
     /// Awake is always called before any Start functions
     /// </summary>
@@ -49,5 +51,19 @@ public class GameManager : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
+        if (GenericElements.CountAllHappy != 0 && GenericElements.LenghtElemList != 0) {
+            float result = (float) GenericElements.CountAllHappy / GenericElements.LenghtElemList;
+            if ( result >= 0.8f && winGame == false) {
+                winGame = true;
+                Debug.Log("WIN");
+                StartCoroutine("CinematicEndWin");
+            }
+        }
     }
+
+    IEnumerator CinematicEndWin() {
+        Debug.Log("Cinematique");
+        yield return null;
+    }
+
 }
