@@ -2,7 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f815fa2-afd0-4569-a96d-2be000957de9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ArbreBSpown.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ArbreBSpown.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ArbreJadeSpown.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ArbreJadeSpown.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/CasqueSpown.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/CasqueSpown.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/CraneSpown.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/CraneSpown.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/FlaqueASpown.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/FlaqueASpown.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/FlaqueBSpown.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/FlaqueBSpown.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownHappy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownHappy/ArbreBToSpawnHappy.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownHappy/ArbreBToSpawnHappy.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownHappy/ArbreJadeToSpawnHappy.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownHappy/ArbreJadeToSpawnHappy.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownHappy/CasqueToSpawnHappy.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownHappy/CasqueToSpawnHappy.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownHappy/CraneToSpawnHappy.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownHappy/CraneToSpawnHappy.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownHappy/FlaqueAToSpawnHappy.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownHappy/FlaqueAToSpawnHappy.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownHappy/FlaqueBToSpawnHappy.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownHappy/FlaqueBToSpawnHappy.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownHappy/HerbeToSpawnHappy.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownHappy/HerbeToSpawnHappy.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownSad.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownSad/ArbreBToSpawnSad.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownSad/ArbreBToSpawnSad.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownSad/ArbreJadeToSpawnSad.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownSad/ArbreJadeToSpawnSad.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownSad/CasqueToSpawnSad.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownSad/CasqueToSpawnSad.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownSad/CraneToSpawnSad.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownSad/CraneToSpawnSad.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownSad/FlaqueAToSpawnSad.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownSad/FlaqueAToSpawnSad.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownSad/FlaqueBToSpawnSad.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownSad/FlaqueBToSpawnSad.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownSad/HerbeToSpawnSad.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/ToSpownSad/HerbeToSpawnSad.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dressOfTheWild/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Enviro/GrassSpown.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Enviro/GrassSpown.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/SceneShare/GenericElement.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/SceneShare/GenericElement.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneTOTOR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneTOTOR.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Wild/arbrejade_Happy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Wild/arbrejade_Happy.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Wild/arbrejade_Sad.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Wild/arbrejade_Sad.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4170ea-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4170ea-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/26ef1d-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/26ef1d-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +103,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Script/CharactereMove.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+            <state relative-caret-position="602">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <marker date="1580651166996" expanded="false" signature="6:116" ph="..." />
                 <marker date="1580651166996" expanded="true" signature="162:8303" ph="{...}" />
@@ -469,7 +520,7 @@
       <workItem from="1580553613704" duration="3261000" />
       <workItem from="1580562344520" duration="28374000" />
       <workItem from="1580594241231" duration="9110000" />
-      <workItem from="1580636255725" duration="11260000" />
+      <workItem from="1580636255725" duration="12113000" />
     </task>
     <task id="LOCAL-00001" summary="characher prefab update">
       <created>1580566623349</created>
@@ -548,11 +599,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580651888553</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="spown Totem">
+      <created>1580652062098</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1580652062098</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57156000" />
+    <option name="totallyTimeSpent" value="58009000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -780,8 +838,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/CharactereMove.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+        <state relative-caret-position="602">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
             <marker date="1580651166996" expanded="false" signature="6:116" ph="..." />
             <marker date="1580651166996" expanded="true" signature="162:8303" ph="{...}" />
