@@ -76,8 +76,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 1
-  regionSize: {x: 10, y: 10}
-  rejectionSamples: 30
+  regionSize: {x: 32, y: 32}
+  rejectionSamples: 5
   displayRadius: 0.2
   objectTypes:
   - {fileID: 4263659789560849422, guid: c94dd72994d3bc3469c91ba9fca061c8, type: 3}
