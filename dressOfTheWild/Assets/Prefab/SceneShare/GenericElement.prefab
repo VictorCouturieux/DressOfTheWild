@@ -80,6 +80,12 @@ MonoBehaviour:
   rejectionSamples: 5
   displayRadius: 0.2
   objectTypes:
+  - {fileID: 4263659789560849422, guid: df36610134575104f8c263aff90b7e83, type: 3}
+  - {fileID: 4263659789560849422, guid: a5930c6a5c15cbe4bbf667429b9a80ee, type: 3}
+  - {fileID: 4263659789560849422, guid: adb7e359655da4342a843230a21df0f0, type: 3}
+  - {fileID: 4263659789560849422, guid: 422b485afdd046b45af872e9bee4cbe5, type: 3}
+  - {fileID: 4263659789560849422, guid: 54f97ffe2c2fa8a4b9dfd381bea6853c, type: 3}
+  - {fileID: 4263659789560849422, guid: d53879fe62b4a344b99d4e24fa55d233, type: 3}
   - {fileID: 4263659789560849422, guid: c94dd72994d3bc3469c91ba9fca061c8, type: 3}
   minePrefab: {fileID: 4192613558141039274, guid: bc9eccafdb46e3f43804a2ad5abae0ac,
     type: 3}
