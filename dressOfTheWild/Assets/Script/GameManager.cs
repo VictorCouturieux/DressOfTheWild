@@ -68,7 +68,7 @@ public class GameManager : MonoBehaviour {
     void Update() {
         if (GenericElements.CountAllHappy != 0 && GenericElements.LenghtElemList != 0) {
             float result = (float) GenericElements.CountAllHappy / GenericElements.LenghtElemList;
-            if (result >= 0.75f && winGame == false) {
+            if (result >= 0.77f && winGame == false) {
                 winGame = true;
 //                Debug.Log("WIN");
                 StartCoroutine("CinematicEndWin");
