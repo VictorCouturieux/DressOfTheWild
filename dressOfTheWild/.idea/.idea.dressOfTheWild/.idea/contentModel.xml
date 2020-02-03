@@ -11,7 +11,7 @@
           <e p="ArbreTree.cs" t="Include" />
           <e p="CameraMain.cs" t="Include" />
           <e p="CharactereMove.cs" t="Include" />
-          <e p="ControleEcrantFaid.cs" t="Include" />
+          <e p="ControleEcrantFade.cs" t="Include" />
           <e p="Enviro" t="Include">
             <e p="AnimationOffset.cs" t="Include" />
             <e p="ButtonEnviro.cs" t="Include" />

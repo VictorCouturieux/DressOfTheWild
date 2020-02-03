@@ -13,7 +13,7 @@ public class MineGenerator : MonoBehaviour {
         if (touched)
             return;
 
-        if (other.gameObject.name.Contains("CharaVisual")) {
+        if (other.gameObject.name.Contains("DetectionMine")) {
             CharactereMove characMove = other.GetComponentInParent<CharactereMove>();
 
             characMove.Explosion(this.transform.position, meshFilts);

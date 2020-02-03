@@ -414,5 +414,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6d571d43db99ac4387ff8abca66bd3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  victoryImage: {fileID: 0}
+  fadeImage: {fileID: 0}
+  CinematicCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.0013122559
+      value: 0.5045929
+      inSlope: -1.044748
+      outSlope: -1.044748
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.025467236
+    - serializedVersion: 3
+      time: 0.9979248
+      value: 0.10211563
+      inSlope: 0.01395265
+      outSlope: 0.01395265
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.046675943
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  timerStartFadeout: 10
   allMeshFilterGround: []
   _soundManager: {fileID: 4316520834240967508}

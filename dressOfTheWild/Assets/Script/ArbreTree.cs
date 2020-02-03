@@ -26,7 +26,7 @@ public class ArbreTree : MonoBehaviour
                 spriteRndre = GetComponentInChildren<SpriteRenderer>();
 
             Color arrColor = spriteRndre.color;
-            Debug.Log("Val = "+ ((this.transform.position.y - ArbreTree.charac.transform.position.y) * valueOffset));
+//            Debug.Log("Val = "+ ((this.transform.position.y - ArbreTree.charac.transform.position.y) * valueOffset));
             arrColor.a = 1 +( (this.transform.position.y - ArbreTree.charac.transform.position.y) * valueOffset);
             spriteRndre.color = arrColor;
 

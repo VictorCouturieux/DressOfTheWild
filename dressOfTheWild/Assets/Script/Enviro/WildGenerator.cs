@@ -9,10 +9,16 @@ public class WildGenerator : MonoBehaviour {
     
     
     [HideInInspector] public bool IsHappy;
+    private bool OnStart = true;
+    public GameObject curentPrafab = null;
 
     // Start is called before the first frame update
     void Start() {
-//        ToSad();
+//        int rand = Random.Range(0, 100);
+//        if (rand<15) {
+//            ToSad();
+//        }
+        OnStart = false;
     }
 
     // Update is called once per frame
@@ -22,20 +28,25 @@ public class WildGenerator : MonoBehaviour {
     private void OnTriggerEnter(Collider autre) {
         if (autre.gameObject.name.Equals("CharaVisual")) {
             ToHappy();
-            
         }
     }
 
     private void ToHappy() {
         if (HappyPrefabs != null) {
-            DeleteAllChild(transform);
-            Instantiate(HappyPrefabs, transform.position, Quaternion.identity, transform);
+//            if (curentPrafab!=null) {
+//                Debug.Log("Destroy IT");
+//                Destroy(curentPrafab);
+//                curentPrafab = null;
+//            }
+//            curentPrafab = 
+                Instantiate(HappyPrefabs, transform.position, Quaternion.identity, transform);
             GetComponent<Collider>().enabled = false;
             IsHappy = true;
-            GenericElements.CountAllHappy++;
-            /*Debug.Log(GenericElements.CountAllHappy 
+            if (!OnStart)
+                GenericElements.CountAllHappy++;
+            Debug.Log(GenericElements.CountAllHappy 
                       + "/" + GenericElements.LenghtElemList 
-                      + "=" + GenericElements.CountAllHappy/GenericElements.LenghtElemList);*/
+                      + "=" + GenericElements.CountAllHappy/GenericElements.LenghtElemList);
         }
         else {
             Debug.LogError("NullPointerException : HerbePrefabs in GrassGenerator");
@@ -44,11 +55,16 @@ public class WildGenerator : MonoBehaviour {
 
     private void ToSad() {
         if (SadPrefabs != null) {
-            DeleteAllChild(transform);
-            Instantiate(SadPrefabs, transform.position, Quaternion.identity, transform);
+//            if (curentPrafab!=null) {
+//                Destroy(curentPrafab);
+//                curentPrafab = null;
+//            }
+//            curentPrafab = 
+                Instantiate(SadPrefabs, transform.position, Quaternion.identity, transform);
             GetComponent<Collider>().enabled = false;
             IsHappy = false;
-            GenericElements.CountAllHappy--;
+            if (!OnStart)
+                GenericElements.CountAllHappy--;
 //            Debug.Log(GenericElements.CountAllHappy 
 //                      + "/" + GenericElements.LenghtElemList 
 //                      + "=" + GenericElements.CountAllHappy/GenericElements.LenghtElemList);

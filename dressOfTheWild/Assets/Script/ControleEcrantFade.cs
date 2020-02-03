@@ -2,9 +2,10 @@
 using UnityEngine.UI;
 using XInputDotNetPure;
 using System.Collections;
+using UnityEngine.Serialization;
 
-public class ControleEcrantFaid : MonoBehaviour {
-    public Image imagetofaid;
+public class ControleEcrantFade : MonoBehaviour {
+    public Image imagetofade;
     
     bool playerIndexSet = false;
     PlayerIndex playerIndex;
@@ -51,7 +52,7 @@ public class ControleEcrantFaid : MonoBehaviour {
         Debug.Log("titi");
         float lerp = 0;
         while (lerp < 1) {
-            imagetofaid.color *= 1-lerp;
+            imagetofade.color *= 1-lerp;
             lerp += Time.deltaTime;
             yield return new WaitForSeconds(0.01f);
         }
